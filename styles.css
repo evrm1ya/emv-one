@@ -1,0 +1,266 @@
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .main-layout .content {
+    width: 680px; }
+    @media (max-width: 420px) {
+      .main-layout .content {
+        width: 100%; } }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.home-page {
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .home-page img {
+    width: 250px;
+    height: 300px; }
+  .home-page h1 {
+    font-size: 20px; }
+  .home-page h2 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .home-page h2 i {
+      font-size: 9px;
+      margin: 0 10px; }
+  .home-page nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 60px;
+    list-style-type: none;
+    padding: 0; }
+    .home-page nav ul li {
+      width: 100px;
+      height: inherit; }
+      .home-page nav ul li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: inherit; }
+  @media (max-width: 400px) {
+    .home-page nav {
+      width: 100%; }
+      .home-page nav ul {
+        width: inherit; }
+        .home-page nav ul li {
+          width: 80px; }
+          .home-page nav ul li a {
+            width: 80px; } }
+  .home-page nav li a {
+    border-bottom: 4px solid transparent; }
+  .home-page nav li:first-child a:hover {
+    color: #ff392e;
+    border-bottom: 4px solid #ff392e; }
+  .home-page nav li:nth-child(2) a:hover {
+    color: #8652dc;
+    border-bottom: 4px solid #8652dc; }
+  .home-page nav li:nth-child(3) a:hover {
+    color: #3056ff;
+    border-bottom: 4px solid #3056ff; }
+  .home-page nav li:last-child a:hover {
+    color: #55c768;
+    border-bottom: 4px solid #55c768; }

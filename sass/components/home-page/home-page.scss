@@ -1,0 +1,56 @@
+
+@import '../../components.scss';
+
+.home-page {
+  padding-top: 20%;
+  @include mainLayoutPage;
+  img {
+    width: 250px;
+    height: 300px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    i {
+      font-size: 9px;
+      margin: 0 10px;
+    }
+  }
+  nav {
+    @include horizontalNav(400px, 60px, 100px);
+    @mixin multiColorBottomBorder($color) {
+      color: $color;
+      border-bottom: 4px solid $color;
+    }
+    li {
+      a {
+        border-bottom: 4px solid transparent;
+      }
+      &:first-child a {
+        &:hover {
+          @include multiColorBottomBorder($emvRed);
+        }
+      }
+      &:nth-child(2) a {
+        &:hover {
+          @include multiColorBottomBorder($emvViolet);
+        }
+      }
+      &:nth-child(3) a {
+        &:hover {
+          @include multiColorBottomBorder($emvBlue);
+        }
+      }
+      &:last-child a {
+        &:hover {
+          @include multiColorBottomBorder($emvGreen);
+        }
+      }
+    }
+  }
+}

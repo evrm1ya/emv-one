@@ -1,0 +1,53 @@
+
+@import './base.scss';
+
+/**********
+  Mixins
+**********/
+
+/********
+  Pages
+********/
+
+@mixin mainLayoutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*********
+  Nav
+*********/
+
+@mixin horizontalNav($width, $height, $tabWidth) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: $width;
+    height: $height;
+    list-style-type: none;
+    padding: 0;
+    li {
+      width: $tabWidth;
+      height: inherit;
+      a {
+        @include vertFlexPerfectCenter;
+        width: $tabWidth;
+        height: inherit;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    ul {
+      width: inherit;
+      li {
+        width: 80px;
+        a {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,89 @@
+
+/***********
+  Colors
+***********/
+
+$white: #fff;
+$black: #000;
+
+// emv
+$emvBlue: #3056ff;
+$emvGreen: #55c768;
+$emvRed: #ff392e;
+$emvViolet: #8652dc;
+
+// Grays
+$grayBackground: #f0f0f0;
+$grayHighlight: #e0e0e0;
+$grayStroke: #d0d0d0;
+$grayFadedFont: #555;
+$grayFont: #333;
+$grayDarkFont: #101010;
+
+/*********
+  Fonts
+*********/
+
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+
+/*********
+  Flex
+*********/
+
+@mixin horizFlexPerfectCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin vertFlexPerfectCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********
+  Base
+*********/
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: $grayFont;
+}
+
+.app-container {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+}
+
+/**********
+  Media
+**********/
+
+$mobile: "(max-width: 420px)"; 
+
