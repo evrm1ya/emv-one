@@ -5,8 +5,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: $black;
   .content {
     width: 680px;
+    background-color: $white;
     @media #{$mobile} {
       width: 100%;
     }

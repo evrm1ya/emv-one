@@ -1,4 +1,17 @@
 
+/** ANIMATION MIXINS **/
+@mixin ccwRotation {
+  0% {width: 100%; @include transformPrefixed(rotate(0deg));}
+  50% { width: 1px; }
+  100% { width: 100%; @include transformPrefixed(rotate(-360deg));}
+}
+
+@mixin cwRotation {
+  0% { width: 100%; @include transformPrefixed(rotate(0deg)); }
+  50% { width: 200%; }
+  100% { width: 100%; @include transformPrefixed(rotate(360deg));}
+}
+
 /** PREFIXES **/
 
 @mixin animationPrefixed($shorthand) {
@@ -30,32 +43,32 @@
   /* SNOWFLAKE ANIMATIONS */
 
   @-webkit-keyframes widenOddContainerLines {
-    50% { width: 150%; }
+    @include cwRotation;
   }
   @-moz-keyframes widenOddContainerLines {
-    50% { width: 150%; }
+    @include cwRotation;
   }
   @-ms-keyframes widenOddContainerLines {
-    50% { width: 150%; }
+    @include cwRotation;
   }
   @-o-keyframes widenOddContainerLines {
-    50% { width: 150%; }
+    @include cwRotation;
   }
   @keyframes widenOddContainerLines {
-    50% { width: 150%; }
+    @include cwRotation;
   }
 
   @-webkit-keyframes shrinkEvenContainerLines {
-    50% { width: 1px; }
+    @include ccwRotation;
   }
   @-moz-keyframes shrinkEvenContainerLines {
-    50% { width: 1px; }
+    @include ccwRotation;
   }
   @-o-keyframes shrinkEvenContainerLines {
-    50% { width: 1px; }
+    @include ccwRotation;
   }
   @keyframes shrinkEvenContainerLines {
-    50% { width: 1px; }
+    @include ccwRotation;
   }
 
   @-webkit-keyframes rotateGear {
@@ -141,24 +154,21 @@
     position: relative;
     #{$lineContainerSelector} {
       position: absolute;
-      display: inline-flex;
+      display: flex;
+      flex-direction: column;
       background-color: transparent;
       #{$innerLineSelector} {
         width: 50%;
         height: 100%;
-        position: absolute;
+        &:first-child {
+          @include transformPrefixed(rotate(90deg));
+        }
       }
       &:nth-child(odd) div {
-        @include animationPrefixed(widenOddContainerLines 4s ease-in-out infinite);
-        &:first-child {
-          @include transformPrefixed(rotate(60deg));
-        }
+        @include animationPrefixed(widenOddContainerLines 8s ease-in-out infinite);
       }
       &:nth-child(even) div {
-        @include animationPrefixed(shrinkEvenContainerLines 4s ease-in-out infinite);
-        &:first-child {
-          @include transformPrefixed(rotate(60deg));
-        }
+        @include animationPrefixed(shrinkEvenContainerLines 8s ease-in-out infinite);
       }
     }
   }

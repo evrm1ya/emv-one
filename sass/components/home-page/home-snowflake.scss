@@ -2,9 +2,15 @@
 @import '../../components.scss';
 @import '../snowflake.scss';
 
-$container: '.home-snowflake-container';
+$artBox: '.art-box';
 $lineCont: '.line-container';
 $innerLine: '.inner-line';
 $contWidth: 300px;
+$btnCont: '.btn-box';
 
-@include SnowflakeStyles($container, $lineCont, $innerLine, $contWidth, 'false', $emvGreen);
+@include SnowflakeStyles($artBox, $lineCont, $innerLine, $contWidth, $btnCont, $emvGreen);
+
+.home-snowflake-container {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #333;
+}

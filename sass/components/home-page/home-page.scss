@@ -32,21 +32,25 @@
         border-bottom: 4px solid transparent;
       }
       &:first-child a {
+        color: $emvRed;
         &:hover {
           @include multiColorBottomBorder($emvRed);
         }
       }
       &:nth-child(2) a {
+        color: $emvViolet;
         &:hover {
           @include multiColorBottomBorder($emvViolet);
         }
       }
       &:nth-child(3) a {
+        color: $emvBlue;
         &:hover {
           @include multiColorBottomBorder($emvBlue);
         }
       }
       &:last-child a {
+        color: $emvGreen;
         &:hover {
           @include multiColorBottomBorder($emvGreen);
         }

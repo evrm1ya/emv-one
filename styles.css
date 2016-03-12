@@ -148,13 +148,16 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  background-color: #000; }
   .main-layout .content {
-    width: 680px; }
+    width: 680px;
+    background-color: #fff; }
     @media (max-width: 420px) {
       .main-layout .content {
         width: 100%; } }
 
+/** ANIMATION MIXINS **/
 /** PREFIXES **/
 
 /***********
@@ -254,18 +257,26 @@ p {
             width: 80px; } }
   .home-page nav li a {
     border-bottom: 4px solid transparent; }
-  .home-page nav li:first-child a:hover {
-    color: #ff392e;
-    border-bottom: 4px solid #ff392e; }
-  .home-page nav li:nth-child(2) a:hover {
-    color: #8652dc;
-    border-bottom: 4px solid #8652dc; }
-  .home-page nav li:nth-child(3) a:hover {
-    color: #3056ff;
-    border-bottom: 4px solid #3056ff; }
-  .home-page nav li:last-child a:hover {
-    color: #55c768;
-    border-bottom: 4px solid #55c768; }
+  .home-page nav li:first-child a {
+    color: #ff392e; }
+    .home-page nav li:first-child a:hover {
+      color: #ff392e;
+      border-bottom: 4px solid #ff392e; }
+  .home-page nav li:nth-child(2) a {
+    color: #8652dc; }
+    .home-page nav li:nth-child(2) a:hover {
+      color: #8652dc;
+      border-bottom: 4px solid #8652dc; }
+  .home-page nav li:nth-child(3) a {
+    color: #3056ff; }
+    .home-page nav li:nth-child(3) a:hover {
+      color: #3056ff;
+      border-bottom: 4px solid #3056ff; }
+  .home-page nav li:last-child a {
+    color: #55c768; }
+    .home-page nav li:last-child a:hover {
+      color: #55c768;
+      border-bottom: 4px solid #55c768; }
 
 /***********
   Colors
@@ -318,43 +329,170 @@ p {
 /*********
   Nav
 *********/
+/** ANIMATION MIXINS **/
 /** PREFIXES **/
 /* SNOWFLAKE ANIMATIONS */
 @-webkit-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 150%; } }
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-moz-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 150%; } }
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-ms-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 150%; } }
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-o-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 150%; } }
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 150%; } }
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-webkit-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 1px; } }
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
 
 @-moz-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 1px; } }
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
 
 @-o-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 1px; } }
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
 
 @keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
   50% {
-    width: 1px; } }
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
 
 @-webkit-keyframes rotateGear {
   0% {
@@ -482,61 +620,55 @@ p {
     -o-transform: rotateY(360deg) rotateX(-360deg);
     transform: rotateY(360deg) rotateX(-360deg); } }
 
-.home-snowflake-container {
+.art-box {
   width: 300px;
   height: 300px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative; }
-  .home-snowflake-container .line-container {
+  .art-box .line-container {
     position: absolute;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     background-color: transparent; }
-    .home-snowflake-container .line-container .inner-line {
+    .art-box .line-container .inner-line {
       width: 50%;
-      height: 100%;
-      position: absolute; }
-    .home-snowflake-container .line-container:nth-child(odd) div {
-      -webkit-animation: widenOddContainerLines 4s ease-in-out infinite;
-      -moz-animation: widenOddContainerLines 4s ease-in-out infinite;
-      -ms-animation: widenOddContainerLines 4s ease-in-out infinite;
-      -o-animation: widenOddContainerLines 4s ease-in-out infinite;
-      animation: widenOddContainerLines 4s ease-in-out infinite; }
-      .home-snowflake-container .line-container:nth-child(odd) div:first-child {
-        -webkit-transform: rotate(60deg);
-        -moz-transform: rotate(60deg);
-        -ms-transform: rotate(60deg);
-        -o-transform: rotate(60deg);
-        transform: rotate(60deg); }
-    .home-snowflake-container .line-container:nth-child(even) div {
-      -webkit-animation: shrinkEvenContainerLines 4s ease-in-out infinite;
-      -moz-animation: shrinkEvenContainerLines 4s ease-in-out infinite;
-      -ms-animation: shrinkEvenContainerLines 4s ease-in-out infinite;
-      -o-animation: shrinkEvenContainerLines 4s ease-in-out infinite;
-      animation: shrinkEvenContainerLines 4s ease-in-out infinite; }
-      .home-snowflake-container .line-container:nth-child(even) div:first-child {
-        -webkit-transform: rotate(60deg);
-        -moz-transform: rotate(60deg);
-        -ms-transform: rotate(60deg);
-        -o-transform: rotate(60deg);
-        transform: rotate(60deg); }
+      height: 100%; }
+      .art-box .line-container .inner-line:first-child {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg); }
+    .art-box .line-container:nth-child(odd) div {
+      -webkit-animation: widenOddContainerLines 8s ease-in-out infinite;
+      -moz-animation: widenOddContainerLines 8s ease-in-out infinite;
+      -ms-animation: widenOddContainerLines 8s ease-in-out infinite;
+      -o-animation: widenOddContainerLines 8s ease-in-out infinite;
+      animation: widenOddContainerLines 8s ease-in-out infinite; }
+    .art-box .line-container:nth-child(even) div {
+      -webkit-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+      -moz-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+      -ms-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+      -o-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+      animation: shrinkEvenContainerLines 8s ease-in-out infinite; }
 
-false {
+.btn-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 300px;
   height: 100px; }
-  false div {
+  .btn-box div {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px; }
-    false div a {
+    .btn-box div a {
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
@@ -547,7 +679,7 @@ false {
       height: 30px;
       border: 2px solid transparent;
       border-radius: 50%; }
-    false div:hover a {
+    .btn-box div:hover a {
       color: #55c768;
       border: 2px solid #55c768;
       -webkit-transform-style: preserve-3d;
@@ -565,7 +697,7 @@ false {
       -ms-animation: wobble 4s infinite linear;
       -o-animation: wobble 4s infinite linear;
       animation: wobble 4s infinite linear; }
-      false div:hover a i {
+      .btn-box div:hover a i {
         -webkit-transform-style: preserve-3d;
         -moz-transform-style: preserve-3d;
         -ms-transform-style: preserve-3d;
@@ -581,3 +713,7 @@ false {
         -ms-animation: rotateGear 4s infinite linear;
         -o-animation: rotateGear 4s infinite linear;
         animation: rotateGear 4s infinite linear; }
+
+.home-snowflake-container {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #333; }

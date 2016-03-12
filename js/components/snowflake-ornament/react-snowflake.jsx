@@ -8,12 +8,27 @@ class ReactSnowflake extends React.Component {
     super();
     this.state = {clickSwitch: true};
     this._generateLineContainers = this._generateLineContainers.bind(this);
+    this._handleClick = this._handleClick.bind(this);
   }
+
   render() {
     return <div className={this.props.containerClass}>
-      {this._generateLineContainers()}
+      <div className={this.props.artBoxClass}>
+        {this._generateLineContainers()}
+      </div>
+      <div className={this.props.btnContainerClass}>
+        <div className='btn-wrapper'>
+          <a 
+            href='javascript:void(0);'
+            onClick={this._handleClick}
+            >
+            <i className='fa fa-cog'></i>
+          </a>
+        </div>
+      </div>
     </div>
   }
+
   _generateLineContainers() {
     let totalEles = this.props.numberOfLineContainers;
     let oddEles = this.props.oddContainers;
@@ -34,6 +49,11 @@ class ReactSnowflake extends React.Component {
       );
     }
     return lineContainers;
+  }
+
+  _handleClick() {
+    let click = (this.state.clickSwitch) ? false : true;
+    this.setState({clickSwitch: click});
   }
 }
 

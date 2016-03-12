@@ -26,12 +26,14 @@ class HomePage extends React.Component {
       </nav>
       <ReactSnowflake
         containerClass='home-snowflake-container'
+        artBoxClass='art-box'
         containerWidth={300}
         numberOfLineContainers={9}
         oddContainers={5}
         evenContainers={4}
         lineContainerClass='line-container'
         innerLineClass='inner-line'
+        btnContainerClass='btn-box'
       />
     </main>
   }
