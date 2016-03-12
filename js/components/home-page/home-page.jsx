@@ -1,6 +1,7 @@
 
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
+import {ReactSnowflake} from '../snowflake-ornament/react-snowflake';
 
 class HomePage extends React.Component {
   render() {
@@ -23,6 +24,15 @@ class HomePage extends React.Component {
           <li><Link to='/photos'>Photos</Link></li>
         </ul>
       </nav>
+      <ReactSnowflake
+        containerClass='home-snowflake-container'
+        containerWidth={300}
+        numberOfLineContainers={9}
+        oddContainers={5}
+        evenContainers={4}
+        lineContainerClass='line-container'
+        innerLineClass='inner-line'
+      />
     </main>
   }
 }

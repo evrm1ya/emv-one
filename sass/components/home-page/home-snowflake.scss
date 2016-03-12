@@ -1,0 +1,10 @@
+
+@import '../../components.scss';
+@import '../snowflake.scss';
+
+$container: '.home-snowflake-container';
+$lineCont: '.line-container';
+$innerLine: '.inner-line';
+$contWidth: 300px;
+
+@include SnowflakeStyles($container, $lineCont, $innerLine, $contWidth, 'false', $emvGreen);

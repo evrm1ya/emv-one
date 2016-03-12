@@ -1,0 +1,207 @@
+
+/** PREFIXES **/
+
+@mixin animationPrefixed($shorthand) {
+  -webkit-animation: $shorthand;
+  -moz-animation: $shorthand;
+  -ms-animation: $shorthand;
+  -o-animation: $shorthand;
+  animation: $shorthand;
+}
+
+@mixin transformPrefixed($transformation) {
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  -o-transform: $transformation;
+  transform: $transformation;
+}
+@mixin transformStylePrefixed($transformStyleProp) {
+  -webkit-transform-style: $transformStyleProp;
+  -moz-transform-style: $transformStyleProp;
+  -ms-transform-style: $transformStyleProp;
+  -o-transform-style: $transformStyleProp;
+  transform-style: $transformStyleProp;
+}
+
+@mixin SnowflakeStyles($artContainerSelector, $lineContainerSelector,
+  $innerLineSelector, $containerWidth, $buttonContainerSelector, $btnColor) {
+
+  /* SNOWFLAKE ANIMATIONS */
+
+  @-webkit-keyframes widenOddContainerLines {
+    50% { width: 150%; }
+  }
+  @-moz-keyframes widenOddContainerLines {
+    50% { width: 150%; }
+  }
+  @-ms-keyframes widenOddContainerLines {
+    50% { width: 150%; }
+  }
+  @-o-keyframes widenOddContainerLines {
+    50% { width: 150%; }
+  }
+  @keyframes widenOddContainerLines {
+    50% { width: 150%; }
+  }
+
+  @-webkit-keyframes shrinkEvenContainerLines {
+    50% { width: 1px; }
+  }
+  @-moz-keyframes shrinkEvenContainerLines {
+    50% { width: 1px; }
+  }
+  @-o-keyframes shrinkEvenContainerLines {
+    50% { width: 1px; }
+  }
+  @keyframes shrinkEvenContainerLines {
+    50% { width: 1px; }
+  }
+
+  @-webkit-keyframes rotateGear {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateZ(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateZ(360deg));
+    }
+  }
+  @-moz-keyframes rotateGear {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateZ(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateZ(360deg));
+    }
+  }
+  @-ms-keyframes rotateGear {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateZ(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateZ(360deg));
+    }
+  }
+  @-o-keyframes rotateGear {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateZ(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateZ(360deg));
+    }
+  }
+
+  @-webkit-keyframes wobble {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateX(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateX(-360deg));
+    }
+  }
+  @-moz-keyframes wobble {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateX(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateX(-360deg));
+    }
+  }
+  @-ms-keyframes wobble {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateX(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateX(-360deg));
+    }
+  }
+  @-o-keyframes wobble {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateX(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateX(-360deg));
+    }
+  }
+  @keyframes wobble {
+    0% { 
+      @include transformPrefixed(rotateY(0deg) rotateX(0deg)); 
+    }  
+    100% { 
+      @include transformPrefixed(rotateY(360deg) rotateX(-360deg));
+    }
+  }
+
+  #{$artContainerSelector} {
+    width: $containerWidth;
+    height: $containerWidth;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    #{$lineContainerSelector} {
+      position: absolute;
+      display: inline-flex;
+      background-color: transparent;
+      #{$innerLineSelector} {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+      }
+      &:nth-child(odd) div {
+        @include animationPrefixed(widenOddContainerLines 4s ease-in-out infinite);
+        &:first-child {
+          @include transformPrefixed(rotate(60deg));
+        }
+      }
+      &:nth-child(even) div {
+        @include animationPrefixed(shrinkEvenContainerLines 4s ease-in-out infinite);
+        &:first-child {
+          @include transformPrefixed(rotate(60deg));
+        }
+      }
+    }
+  }
+  #{$buttonContainerSelector} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: $containerWidth;
+    height: 100px;
+    div {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      a {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+        width: 30px;
+        height: 30px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+      }
+      &:hover {
+        a {
+          color: $btnColor;
+          border: 2px solid $btnColor;
+          @include transformStylePrefixed(preserve-3d);
+          @include transformPrefixed(perspective(200px));
+          @include animationPrefixed(wobble 4s infinite linear);
+          i {
+            @include transformStylePrefixed(preserve-3d);
+            @include transformPrefixed(perspective(200px));
+            @include animationPrefixed(rotateGear 4s infinite linear);
+          }
+        }
+      }
+    }
+  }
+}
