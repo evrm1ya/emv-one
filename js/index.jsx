@@ -7,6 +7,9 @@ import {BassPage} from './components/bass-page/bass-page';
 import {PortfolioPage} from './components/portfolio-page/portfolio-page';
 import {ContactPage} from './components/contact-page/contact-page';
 import {PhotosPage} from './components/photos-page/photos-page';
+import {logDispatcher, Dispatcher} from './dispatcher/dispatcher';
+
+logDispatcher();
 
 class MainLayout extends React.Component {
   render() {
