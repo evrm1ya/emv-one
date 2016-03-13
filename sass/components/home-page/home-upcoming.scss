@@ -1,6 +1,50 @@
 
 @import '../../components.scss';
+@import '../bubble-ornament.scss';
 
 .home-upcoming-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+  @media #{$mobile} {
+    padding: 0;
+    justify-content: center;
+  }
+
+  $bubbleContainer: '.bubble-ornament-container';
+  $bubbleArtBox: '.art-box';
+  $artBoxWidth: 300px;
+
+  @include BubbleOrnament($bubbleContainer, $bubbleArtBox, $artBoxWidth);
+
+  .art-box {
+    box-shadow: 0 0 10px 0 $grayStroke;
+  }
+
+  .home-event-box {
+    padding: 20px;
+    margin-left: 20px;
+    background-color: $grayFont;
+    color: $grayBackground;
+    text-align: right;
+    h2 {
+      margin-top: 0;
+      font-weight: 700;
+    }
+    time {
+      display: inline-block;
+      margin-top: 10px;
+    }
+    @media #{$mobile} {
+      margin-top: 40px;
+      margin-left: 0;
+      align-self: center;
+    }
+  }
+
 }

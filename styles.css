@@ -159,6 +159,7 @@ p {
       .main-layout .content {
         width: 100%; } }
 
+
 /***********
   Colors
 ***********/
@@ -884,7 +885,44 @@ p {
   Nav
 *********/
 .home-upcoming-container {
-  width: 100%; }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px; }
+  @media (max-width: 420px) {
+    .home-upcoming-container {
+      padding: 0;
+      justify-content: center; } }
+  .home-upcoming-container .bubble-ornament-container {
+    display: inline-flex; }
+    .home-upcoming-container .bubble-ornament-container .art-box {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      overflow: hidden; }
+  .home-upcoming-container .art-box {
+    box-shadow: 0 0 10px 0 #d0d0d0; }
+  .home-upcoming-container .home-event-box {
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: right; }
+    .home-upcoming-container .home-event-box h2 {
+      margin-top: 0;
+      font-weight: 700; }
+    .home-upcoming-container .home-event-box time {
+      display: inline-block;
+      margin-top: 10px; }
+    @media (max-width: 420px) {
+      .home-upcoming-container .home-event-box {
+        margin-top: 40px;
+        margin-left: 0;
+        align-self: center; } }
 
 /***********
   Colors

@@ -1,0 +1,12 @@
+
+@mixin BubbleOrnament($containerName, $artBoxName, $artBoxWidth) {
+  #{$containerName} {
+    display: inline-flex;
+    #{$artBoxName} {
+      width: $artBoxWidth;
+      height: $artBoxWidth;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+}
