@@ -4,7 +4,7 @@
 /*********
   Fonts
 *********/
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 /*********
   Flex
 *********/
@@ -20,7 +20,8 @@ body, html {
   margin: 0; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
 
 .app-container {
   width: 100%; }
@@ -47,7 +48,7 @@ p {
 /*********
   Fonts
 *********/
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 /*********
   Flex
 *********/
@@ -63,7 +64,8 @@ body, html {
   margin: 0; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
 
 .app-container {
   width: 100%; }
@@ -99,7 +101,7 @@ p {
 /*********
   Fonts
 *********/
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 /*********
   Flex
 *********/
@@ -115,7 +117,8 @@ body, html {
   margin: 0; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
 
 .app-container {
   width: 100%; }
@@ -166,7 +169,7 @@ p {
 /*********
   Fonts
 *********/
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 /*********
   Flex
 *********/
@@ -182,7 +185,8 @@ body, html {
   margin: 0; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
 
 .app-container {
   width: 100%; }
@@ -284,7 +288,7 @@ p {
 /*********
   Fonts
 *********/
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 /*********
   Flex
 *********/
@@ -300,7 +304,8 @@ body, html {
   margin: 0; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
 
 .app-container {
   width: 100%; }
@@ -714,6 +719,61 @@ p {
         -o-animation: rotateGear 4s infinite linear;
         animation: rotateGear 4s infinite linear; }
 
-.home-snowflake-container {
-  border-radius: 5px;
-  box-shadow: 0 0 10px 0 #333; }
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.home-update-container {
+  width: 80%;
+  padding: 20px; }
+  @media (max-width: 420px) {
+    .home-update-container {
+      width: 100%; } }

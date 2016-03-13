@@ -1,0 +1,11 @@
+
+@import '../../components.scss';
+
+.home-update-container {
+  width: 80%;
+  padding: 20px;
+  @media #{$mobile} {
+    width: 100%;
+  }
+}
+

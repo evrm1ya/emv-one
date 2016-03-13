@@ -2,6 +2,7 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 import {ReactSnowflake} from '../snowflake-ornament/react-snowflake';
+import {HomeUpdates} from './updates/home-updates';
 
 class HomePage extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class HomePage extends React.Component {
       />
       <h1>Evan Vermilyea</h1>
       <h2>
-        Double Bass
+        Double Bassist
         <i className='fa fa-circle-o'></i>
         Web Developer
       </h2>
@@ -35,6 +36,7 @@ class HomePage extends React.Component {
         innerLineClass='inner-line'
         btnContainerClass='btn-box'
       />
+      <HomeUpdates/>
     </main>
   }
 }
