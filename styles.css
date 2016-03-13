@@ -883,6 +883,61 @@ p {
 /*********
   Nav
 *********/
+.home-upcoming-container {
+  width: 100%; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
 .home-update-container {
   width: 100%;
   padding: 20px;
@@ -933,3 +988,9 @@ p {
       .home-update-container button.forward:hover {
         color: #fff;
         background-color: #3056ff; }
+    .home-update-container button.dark {
+      color: #d0d0d0; }
+      .home-update-container button.dark:hover {
+        cursor: default;
+        background-color: transparent;
+        color: #d0d0d0; }

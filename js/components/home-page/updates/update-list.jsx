@@ -14,6 +14,8 @@ class UpdateList extends React.Component {
     this._renderPosts = this._renderPosts.bind(this);
     this._handleReverseClick = this._handleReverseClick.bind(this);
     this._handleForwardClick = this._handleForwardClick.bind(this);
+    this._getReverseBtnStyle = this._getReverseBtnStyle.bind(this);
+    this._getForwardBtnStyle = this._getForwardBtnStyle.bind(this);
   }
   componentWillMount() {
     let firstPost = homeUpdateStore[0].id;
@@ -30,13 +32,13 @@ class UpdateList extends React.Component {
         {this._renderPosts()}
       </ul>
       <button
-        className='reverse'
+        className={this._getReverseBtnStyle()}
         onClick={this._handleReverseClick}
         >
         <i className='fa fa-chevron-left'></i>
       </button>
       <button 
-        className='forward'
+        className={this._getForwardBtnStyle()}
         onClick={this._handleForwardClick}
         >
         <i className='fa fa-chevron-right'></i>
@@ -70,6 +72,12 @@ class UpdateList extends React.Component {
       currentPost = `POST_${plusOne}`;
       this.setState({currentPost});
     }
+  }
+  _getReverseBtnStyle() {
+    return (this.state.currentPost === this.state.firstPost) ? 'reverse dark' : 'reverse';
+  }
+  _getForwardBtnStyle() {
+    return (this.state.currentPost === this.state.lastPost) ? 'forward dark' : 'forward';
   }
 }
 

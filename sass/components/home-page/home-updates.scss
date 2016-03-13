@@ -64,6 +64,14 @@
         background-color: $emvBlue;
       }
     }
+    &.dark {
+      color: $grayStroke;
+      &:hover {
+        cursor: default;
+        background-color: transparent;
+        color: $grayStroke;
+      }
+    }
   }
 }
 

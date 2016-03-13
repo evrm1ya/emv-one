@@ -3,6 +3,7 @@ import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 import {ReactSnowflake} from '../snowflake-ornament/react-snowflake';
 import {HomeUpdates} from './updates/home-updates';
+import {UpcomingEvents} from './upcoming/upcoming-events';
 
 class HomePage extends React.Component {
   render() {
@@ -39,6 +40,7 @@ class HomePage extends React.Component {
         btnContainerClass='btn-box'
       />
       <HomeUpdates/>
+      <UpcomingEvents />
     </main>
   }
 }
