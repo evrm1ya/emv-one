@@ -1,4 +1,4 @@
-
+@import '../base.scss';
 /** ANIMATION MIXINS **/
 @mixin ccwRotation {
   0% {width: 100%; @include transformPrefixed(rotate(0deg));}
@@ -178,7 +178,7 @@
     justify-content: center;
     align-items: center;
     width: $containerWidth;
-    height: 100px;
+    height: 50px;
     div {
       display: inline-flex;
       flex-direction: row;

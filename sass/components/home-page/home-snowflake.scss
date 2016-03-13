@@ -10,3 +10,8 @@ $btnCont: '.btn-box';
 
 @include SnowflakeStyles($artBox, $lineCont, $innerLine, $contWidth, $btnCont, $emvGreen);
 
+.home-snowflake-container {
+  margin-top: 20px;
+  box-shadow: 0 0 10px 0 #e0e0e0;
+}
+

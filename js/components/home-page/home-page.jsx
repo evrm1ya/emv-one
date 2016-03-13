@@ -11,12 +11,14 @@ class HomePage extends React.Component {
         src='./public/images/emv-prof.jpg'
         alt='A portrait of Evan Vermilyea made with melted crayons.'
       />
-      <h1>Evan Vermilyea</h1>
-      <h2>
-        Double Bassist
-        <i className='fa fa-circle-o'></i>
-        Web Developer
-      </h2>
+      <section className='intro'>
+        <h1>Evan Vermilyea</h1>
+        <h2>
+          Double Bassist
+          <i className='fa fa-circle-o'></i>
+          Web Developer
+        </h2>
+      </section>
       <nav>
         <ul>
           <li><Link to='/bass'>Bass</Link></li>

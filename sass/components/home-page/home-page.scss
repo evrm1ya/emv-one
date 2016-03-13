@@ -8,17 +8,32 @@
     width: 250px;
     height: 300px;
   }
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    i {
-      font-size: 9px;
-      margin: 0 10px;
+  .intro {
+    @include vertFlexPerfectCenter;
+    width: 100%;
+    background-color: $grayFont;
+    color: $white;
+    padding: 20px;
+    margin-top: 20px;
+    @media #{$mobile} {
+      color: $grayFont;
+      background-color: $white;
+      padding: 0;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0;
+    }
+    h2 {
+      font-size: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      i {
+        font-size: 9px;
+        margin: 0 10px;
+      }
     }
   }
   nav {
@@ -27,32 +42,38 @@
       color: $color;
       border-bottom: 4px solid $color;
     }
-    li {
-      a {
-        border-bottom: 4px solid transparent;
-      }
-      &:first-child a {
-        color: $emvRed;
-        &:hover {
-          @include multiColorBottomBorder($emvRed);
+    margin-top: 20px;
+    ul {
+      margin: 0;
+      height: 80px;
+      li {
+        a {
+          border-bottom: 4px solid transparent;
+          font-weight: 700;
         }
-      }
-      &:nth-child(2) a {
-        color: $emvViolet;
-        &:hover {
-          @include multiColorBottomBorder($emvViolet);
+        &:first-child a {
+          color: $emvRed;
+          &:hover {
+            @include multiColorBottomBorder($emvRed);
+          }
         }
-      }
-      &:nth-child(3) a {
-        color: $emvBlue;
-        &:hover {
-          @include multiColorBottomBorder($emvBlue);
+        &:nth-child(2) a {
+          color: $emvViolet;
+          &:hover {
+            @include multiColorBottomBorder($emvViolet);
+          }
         }
-      }
-      &:last-child a {
-        color: $emvGreen;
-        &:hover {
-          @include multiColorBottomBorder($emvGreen);
+        &:nth-child(3) a {
+          color: $emvBlue;
+          &:hover {
+            @include multiColorBottomBorder($emvBlue);
+          }
+        }
+        &:last-child a {
+          color: $emvGreen;
+          &:hover {
+            @include multiColorBottomBorder($emvGreen);
+          }
         }
       }
     }

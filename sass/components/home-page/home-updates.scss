@@ -2,10 +2,68 @@
 @import '../../components.scss';
 
 .home-update-container {
-  width: 80%;
+  width: 100%;
   padding: 20px;
-  @media #{$mobile} {
-    width: 100%;
+  margin-top: 40px;
+  background-color: $grayBackground;
+  h2 {
+    font-weight: 700;
+    margin: 0 0 40px 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+    li {
+      width: 100%;
+      &.visible {
+        display: flex;
+        flex-direction: column;
+      }
+      &.hidden {
+        display: none;
+      }
+      time {
+        font-size: 12px;
+      }
+      p {
+        padding-left: 10px;
+      }
+    }
+  }
+  button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: $grayBackground;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    outline: none;
+    padding: 0;
+    &:hover {
+      cursor: pointer;
+    }
+    &.reverse {
+      color: $emvRed;
+      &:hover {
+        color: $white;
+        background-color: $emvRed;
+      }
+    }
+    &.forward {
+      color: $emvBlue;
+      margin-left: 10px;
+      i {
+        margin-left: 2px;
+      }
+      &:hover {
+        color: $white;
+        background-color: $emvBlue;
+      }
+    }
   }
 }
 

@@ -151,8 +151,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  background-color: #000; }
+  width: 100%; }
   .main-layout .content {
     width: 680px;
     background-color: #fff; }
@@ -160,6 +159,49 @@ p {
       .main-layout .content {
         width: 100%; } }
 
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
 
@@ -223,64 +265,87 @@ p {
   .home-page img {
     width: 250px;
     height: 300px; }
-  .home-page h1 {
-    font-size: 20px; }
-  .home-page h2 {
-    font-size: 18px;
+  .home-page .intro {
     display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .home-page h2 i {
-      font-size: 9px;
-      margin: 0 10px; }
-  .home-page nav ul {
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    height: 60px;
-    list-style-type: none;
-    padding: 0; }
-    .home-page nav ul li {
-      width: 100px;
-      height: inherit; }
-      .home-page nav ul li a {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px; }
+    @media (max-width: 420px) {
+      .home-page .intro {
+        color: #333;
+        background-color: #fff;
+        padding: 0; } }
+    .home-page .intro h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0; }
+    .home-page .intro h2 {
+      font-size: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .home-page .intro h2 i {
+        font-size: 9px;
+        margin: 0 10px; }
+  .home-page nav {
+    margin-top: 20px; }
+    .home-page nav ul {
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      height: 60px;
+      list-style-type: none;
+      padding: 0; }
+      .home-page nav ul li {
         width: 100px;
         height: inherit; }
-  @media (max-width: 400px) {
-    .home-page nav {
-      width: 100%; }
-      .home-page nav ul {
-        width: inherit; }
-        .home-page nav ul li {
-          width: 80px; }
-          .home-page nav ul li a {
-            width: 80px; } }
-  .home-page nav li a {
-    border-bottom: 4px solid transparent; }
-  .home-page nav li:first-child a {
-    color: #ff392e; }
-    .home-page nav li:first-child a:hover {
-      color: #ff392e;
-      border-bottom: 4px solid #ff392e; }
-  .home-page nav li:nth-child(2) a {
-    color: #8652dc; }
-    .home-page nav li:nth-child(2) a:hover {
-      color: #8652dc;
-      border-bottom: 4px solid #8652dc; }
-  .home-page nav li:nth-child(3) a {
-    color: #3056ff; }
-    .home-page nav li:nth-child(3) a:hover {
-      color: #3056ff;
-      border-bottom: 4px solid #3056ff; }
-  .home-page nav li:last-child a {
-    color: #55c768; }
-    .home-page nav li:last-child a:hover {
-      color: #55c768;
-      border-bottom: 4px solid #55c768; }
+        .home-page nav ul li a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: inherit; }
+    @media (max-width: 400px) {
+      .home-page nav {
+        width: 100%; }
+        .home-page nav ul {
+          width: inherit; }
+          .home-page nav ul li {
+            width: 80px; }
+            .home-page nav ul li a {
+              width: 80px; } }
+    .home-page nav ul {
+      margin: 0;
+      height: 80px; }
+      .home-page nav ul li a {
+        border-bottom: 4px solid transparent;
+        font-weight: 700; }
+      .home-page nav ul li:first-child a {
+        color: #ff392e; }
+        .home-page nav ul li:first-child a:hover {
+          color: #ff392e;
+          border-bottom: 4px solid #ff392e; }
+      .home-page nav ul li:nth-child(2) a {
+        color: #8652dc; }
+        .home-page nav ul li:nth-child(2) a:hover {
+          color: #8652dc;
+          border-bottom: 4px solid #8652dc; }
+      .home-page nav ul li:nth-child(3) a {
+        color: #3056ff; }
+        .home-page nav ul li:nth-child(3) a:hover {
+          color: #3056ff;
+          border-bottom: 4px solid #3056ff; }
+      .home-page nav ul li:last-child a {
+        color: #00ff92; }
+        .home-page nav ul li:last-child a:hover {
+          color: #00ff92;
+          border-bottom: 4px solid #00ff92; }
 
 /***********
   Colors
@@ -295,6 +360,7 @@ p {
 /*********
   Base
 *********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 * {
   box-sizing: border-box; }
 
@@ -334,6 +400,48 @@ p {
 /*********
   Nav
 *********/
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
 /* SNOWFLAKE ANIMATIONS */
@@ -665,7 +773,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 100px; }
+  height: 50px; }
   .btn-box div {
     display: inline-flex;
     flex-direction: row;
@@ -685,8 +793,8 @@ p {
       border: 2px solid transparent;
       border-radius: 50%; }
     .btn-box div:hover a {
-      color: #55c768;
-      border: 2px solid #55c768;
+      color: #00ff92;
+      border: 2px solid #00ff92;
       -webkit-transform-style: preserve-3d;
       -moz-transform-style: preserve-3d;
       -ms-transform-style: preserve-3d;
@@ -718,6 +826,10 @@ p {
         -ms-animation: rotateGear 4s infinite linear;
         -o-animation: rotateGear 4s infinite linear;
         animation: rotateGear 4s infinite linear; }
+
+.home-snowflake-container {
+  margin-top: 20px;
+  box-shadow: 0 0 10px 0 #e0e0e0; }
 
 /***********
   Colors
@@ -772,8 +884,52 @@ p {
   Nav
 *********/
 .home-update-container {
-  width: 80%;
-  padding: 20px; }
-  @media (max-width: 420px) {
-    .home-update-container {
-      width: 100%; } }
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #f0f0f0; }
+  .home-update-container h2 {
+    font-weight: 700;
+    margin: 0 0 40px 0; }
+  .home-update-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px; }
+    .home-update-container ul li {
+      width: 100%; }
+      .home-update-container ul li.visible {
+        display: flex;
+        flex-direction: column; }
+      .home-update-container ul li.hidden {
+        display: none; }
+      .home-update-container ul li time {
+        font-size: 12px; }
+      .home-update-container ul li p {
+        padding-left: 10px; }
+  .home-update-container button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    outline: none;
+    padding: 0; }
+    .home-update-container button:hover {
+      cursor: pointer; }
+    .home-update-container button.reverse {
+      color: #ff392e; }
+      .home-update-container button.reverse:hover {
+        color: #fff;
+        background-color: #ff392e; }
+    .home-update-container button.forward {
+      color: #3056ff;
+      margin-left: 10px; }
+      .home-update-container button.forward i {
+        margin-left: 2px; }
+      .home-update-container button.forward:hover {
+        color: #fff;
+        background-color: #3056ff; }
