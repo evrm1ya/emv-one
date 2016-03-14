@@ -26,9 +26,16 @@ class BubbleMaker extends React.Component {
     let stylesList = bubbleMaker.generateStyles();
     let bubbleArray = [];
     for (let i = 0; i < total; i++) {
+      let outerStyle = {
+        width: stylesList[i].width,
+        height: stylesList[i].height,
+        top: stylesList[i].top,
+        left: stylesList[i].left
+      };
       bubbleArray.push(
         <Bubble
           key={`Bubble_${i}`}
+          outerStyle={outerStyle}
           bubbleStyle={stylesList[i]}
           bubbleClass={this.props.bubbleClass}
           >

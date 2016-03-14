@@ -1,4 +1,48 @@
 
+/** PREFIXES **/
+
+@mixin animationPrefixed($shorthand) {
+  -webkit-animation: $shorthand;
+  -moz-animation: $shorthand;
+  -ms-animation: $shorthand;
+  -o-animation: $shorthand;
+  animation: $shorthand;
+}
+
+@mixin expansion {
+  0% {width: 100%; height: 100%;}
+  50% {width: 200%; height: 200%;}
+  100% {width: 100%; height: 100%;}
+}
+
+
+@-webkit-keyframes expandOddBubbles {
+  @include expansion;
+}
+@-moz-keyframes expandOddBubbles {
+  @include expansion;
+}
+@-ms-keyframes expandOddBubbles {
+  @include expansion;
+}
+@-o-keyframes expandOddBubbles {
+  @include expansion;
+}
+@keyframes expandOddBubbles {
+  @include expansion;
+}
+
+@-webkit-keyframes shrinkEvenBubbles {
+}
+@-moz-keyframes shrinkEvenBubbles {
+}
+@-ms-keyframes shrinkEvenBubbles {
+}
+@-o-keyframes shrinkEvenBubbles {
+}
+@keyframes shrinkEvenBubbles {
+}
+
 @mixin BubbleMaker($containerName, $artBoxName, $artBoxWidth, $bubbleClass) {
   #{$containerName} {
     display: inline-flex;
@@ -10,6 +54,13 @@
       #{$bubbleClass} {
         position: absolute;
         border-radius: 50%;
+        background-color: transparent;
+        div {
+          border-radius: 50%;
+        }
+        &:nth-child(odd) div {
+          @include animationPrefixed(expandOddBubbles 8s infinite linear);
+        }
       }
     }
   }

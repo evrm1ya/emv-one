@@ -159,6 +159,63 @@ p {
       .main-layout .content {
         width: 100%; } }
 
+/** PREFIXES **/
+@-webkit-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-moz-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-ms-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-o-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-webkit-keyframes shrinkEvenBubbles {}@-moz-keyframes shrinkEvenBubbles {}@-ms-keyframes shrinkEvenBubbles {}@-o-keyframes shrinkEvenBubbles {}@keyframes shrinkEvenBubbles {}
 
 /***********
   Colors
@@ -884,7 +941,63 @@ p {
 /*********
   Nav
 *********/
-.home-upcoming-container {
+/** PREFIXES **/
+@-webkit-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-moz-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-ms-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-o-keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@keyframes expandOddBubbles {
+  0% {
+    width: 100%;
+    height: 100%; }
+  50% {
+    width: 200%;
+    height: 200%; }
+  100% {
+    width: 100%;
+    height: 100%; } }
+
+@-webkit-keyframes shrinkEvenBubbles {}@-moz-keyframes shrinkEvenBubbles {}@-ms-keyframes shrinkEvenBubbles {}@-o-keyframes shrinkEvenBubbles {}@keyframes shrinkEvenBubbles {}.home-upcoming-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -906,7 +1019,16 @@ p {
       overflow: hidden; }
       .home-upcoming-container .bubble-maker-container .art-box .bubble {
         position: absolute;
-        border-radius: 50%; }
+        border-radius: 50%;
+        background-color: transparent; }
+        .home-upcoming-container .bubble-maker-container .art-box .bubble div {
+          border-radius: 50%; }
+        .home-upcoming-container .bubble-maker-container .art-box .bubble:nth-child(odd) div {
+          -webkit-animation: expandOddBubbles 8s infinite linear;
+          -moz-animation: expandOddBubbles 8s infinite linear;
+          -ms-animation: expandOddBubbles 8s infinite linear;
+          -o-animation: expandOddBubbles 8s infinite linear;
+          animation: expandOddBubbles 8s infinite linear; }
   .home-upcoming-container .art-box {
     box-shadow: 0 0 10px 0 #d0d0d0; }
   .home-upcoming-container .home-event-box {

@@ -5,8 +5,9 @@ class Bubble extends React.Component {
   render() {
     return <div 
       className={this.props.bubbleClass}
-      style={this.props.bubbleStyle}
+      style={this.props.outerStyle}
       >
+      <div style={this.props.bubbleStyle}></div>
     </div>
   }
 }
