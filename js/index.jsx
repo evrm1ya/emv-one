@@ -9,12 +9,24 @@ import {ContactPage} from './components/contact-page/contact-page';
 import {PhotosPage} from './components/photos-page/photos-page';
 
 class MainLayout extends React.Component {
+  constructor() {
+    super();
+    this._getCurrentYear = this._getCurrentYear.bind(this);
+  }
   render() {
     return <div className='main-layout'>
       <div className='content'>
         {this.props.children}
+        <footer>
+          Copyright &#169; {this._getCurrentYear()} Evan Vermilyea
+        </footer>
       </div>
     </div>
+  }
+  _getCurrentYear() {
+    let date = new Date();
+    let currentYear = date.getFullYear();
+    return currentYear;
   }
 }
 

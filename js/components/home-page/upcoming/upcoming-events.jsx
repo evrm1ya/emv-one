@@ -13,7 +13,7 @@ class UpcomingEvents extends React.Component {
         bubbleClass='bubble'
         artBoxClass='art-box'
         minBubbleWidth={25}
-        totalBubbles={50}
+        totalBubbles={25}
         containerWidth={300}
         colorOptions={bubbleColorOptions}
         opacityOptions={opacityOptions}
