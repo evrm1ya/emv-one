@@ -5,6 +5,7 @@ import {getOrderedDimensionList} from '../src/style-generator/get-ordered-dimens
 import {BubbleArt} from '../src/bubble-constructor';
 import {combineLists} from '../src/style-generator/style-generator';
 import {getPositionList} from '../src/style-generator/get-position-list';
+import {randomizeCombinedList} from '../src/style-generator/style-generator';
 
 describe('style-generator test suite', () => {
 
@@ -78,36 +79,54 @@ describe('style-generator test suite', () => {
       expect(testList).to.include({top: 2});
     });
   });
+
   describe('combineLists', () => {
     let testArrOfArrs = [
       [
         {width: 2, height: 2},
-        {width: 3, height: 3}
+        {width: 3, height: 3},
+        {width: 4, height: 4}
       ],
       [
         {opacity: 0.2},
-        {opacity: 0.4}
+        {opacity: 0.4},
+        {opacity: 0.6}
       ],
       [
         {backgroundColor: '#fff'},
-        {backgroundColor: '#000'}
+        {backgroundColor: '#000'},
+        {backgroundColor: '#333'}
       ],
       [
         {top: 5},
-        {top: 6}
+        {top: 6},
+        {top: 7}
       ],
       [
         {left: 3},
-        {left: 4}
+        {left: 4},
+        {left: 5}
       ]
     ];
     let expectedResult = [
       {width: 2, height: 2, opacity: 0.2, backgroundColor: '#fff', top: 5, left: 3},
-      {width: 3, height: 3, opacity: 0.4, backgroundColor: '#000', top: 6, left: 4}
+      {width: 3, height: 3, opacity: 0.4, backgroundColor: '#000', top: 6, left: 4},
+      {width: 4, height: 4, opacity: 0.6, backgroundColor: '#333', top: 7, left: 5}
     ];
     let testRun = combineLists(testArrOfArrs);
     it('outputs array of correct style objs', () => {
       expect(testRun).to.eql(expectedResult);
+    });
+
+    describe('randomizeCombinedList', () => {
+      let randomizedTestRun = randomizeCombinedList(testRun);
+      let randTestRunLength = randomizedTestRun.length;
+      it('returns same length of array', () => {
+        expect(randTestRunLength).to.equal(3);
+      });
+      it('returns a different arr than non-randomized (could be same)', () => {
+        expect(randomizedTestRun).to.deep.not.equal(expectedResult);
+      });
     });
   });
 });

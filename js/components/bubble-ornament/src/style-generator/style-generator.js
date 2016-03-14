@@ -2,12 +2,7 @@
 import {createExtendedOptsArr} from './make-extended-list';
 import {getOrderedDimensionList} from './get-ordered-dimensions';
 import {getPositionList} from './get-position-list';
-
-/**
- * prototype for BubbleArt
- */
-
-/** @TODO create fcn to combine all lists and output one list of style objs **/
+import {randomizr} from '../randomizr/randomizr';
 
 /**
  * listArr: [widthList, topList, leftList, colorList, opacList]
@@ -30,6 +25,20 @@ function combineLists(listArr) {
   return combinedList;
 }
 
+function randomizeCombinedList(combinedList) {
+  var randomizedList = [];
+  let listLength = combinedList.length;
+  let indexList = randomizr.getRandomIndexList(listLength, listLength);
+  for (let i = 0; i < listLength; i++) {
+    randomizedList.push(combinedList[indexList[i]]);
+  }
+  return randomizedList;
+}
+
+/**
+ * prototype for BubbleArt
+ */
+
 function generateStyles() {
   let minBubbleWidth = this._minBubbleWidth,
       totalBubbles = this._totalBubbles,
@@ -42,17 +51,15 @@ function generateStyles() {
   let colorList = createExtendedOptsArr(totalBubbles, colorOpts, 'backgroundColor');
   let topPositionList = getPositionList(totalBubbles, containerWidth, 'top');
   let leftPositionList = getPositionList(totalBubbles, containerWidth, 'left');
+  
+  let combinedListParams = [dimensionList, opacityList, colorList, topPositionList, leftPositionList];
+  let combinedList = combineLists(combinedListParams);
+  let randomizedStyleList = randomizeCombinedList(combinedList);
 
-  return {
-    minBubbleWidth,
-    totalBubbles,
-    containerWidth,
-    colorOpts,
-    opacOpts
-  }
+  return randomizedStyleList;
 }
 
-export {generateStyles, combineLists};
+export {generateStyles, combineLists, randomizeCombinedList};
 
 
 
