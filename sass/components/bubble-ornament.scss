@@ -1,5 +1,5 @@
 
-@mixin BubbleOrnament($containerName, $artBoxName, $artBoxWidth) {
+@mixin BubbleOrnament($containerName, $artBoxName, $artBoxWidth, $bubbleClass) {
   #{$containerName} {
     display: inline-flex;
     #{$artBoxName} {
@@ -7,6 +7,10 @@
       height: $artBoxWidth;
       position: relative;
       overflow: hidden;
+      #{$bubbleClass} {
+        position: absolute;
+        border-radius: 50%;
+      }
     }
   }
 }

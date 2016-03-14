@@ -904,6 +904,9 @@ p {
       height: 300px;
       position: relative;
       overflow: hidden; }
+      .home-upcoming-container .bubble-ornament-container .art-box .bubble {
+        position: absolute;
+        border-radius: 50%; }
   .home-upcoming-container .art-box {
     box-shadow: 0 0 10px 0 #d0d0d0; }
   .home-upcoming-container .home-event-box {

@@ -19,8 +19,9 @@
   $bubbleContainer: '.bubble-ornament-container';
   $bubbleArtBox: '.art-box';
   $artBoxWidth: 300px;
+  $bubbleClass: '.bubble';
 
-  @include BubbleOrnament($bubbleContainer, $bubbleArtBox, $artBoxWidth);
+  @include BubbleOrnament($bubbleContainer, $bubbleArtBox, $artBoxWidth, $bubbleClass);
 
   .art-box {
     box-shadow: 0 0 10px 0 $grayStroke;
