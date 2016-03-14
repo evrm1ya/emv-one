@@ -9,10 +9,41 @@
   animation: $shorthand;
 }
 
+@mixin transformPrefixed($transformation) {
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -ms-transform: $transformation;
+  -o-transform: $transformation;
+  transform: $transformation;
+}
+
 @mixin expansion {
-  0% {width: 100%; height: 100%;}
-  50% {width: 200%; height: 200%;}
-  100% {width: 100%; height: 100%;}
+  0% {@include transformPrefixed(scale(1));}
+  50% {@include transformPrefixed(scale(2));}
+  100% {@include transformPrefixed(scale(1));}
+}
+
+@mixin contraction {
+  0% {@include transformPrefixed(scale(1));}
+  50% {@include transformPrefixed(scale(.5));}
+  100% {@include transformPrefixed(scale(1));}
+}
+
+// undecided
+@mixin floatUp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: initial;  
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  @include floatUp;
 }
 
 
@@ -33,14 +64,19 @@
 }
 
 @-webkit-keyframes shrinkEvenBubbles {
+  @include contraction;
 }
 @-moz-keyframes shrinkEvenBubbles {
+  @include contraction;
 }
 @-ms-keyframes shrinkEvenBubbles {
+  @include contraction;
 }
 @-o-keyframes shrinkEvenBubbles {
+  @include contraction;
 }
 @keyframes shrinkEvenBubbles {
+  @include contraction;
 }
 
 @mixin BubbleMaker($containerName, $artBoxName, $artBoxWidth, $bubbleClass) {
@@ -59,7 +95,10 @@
           border-radius: 50%;
         }
         &:nth-child(odd) div {
-          @include animationPrefixed(expandOddBubbles 8s infinite linear);
+          @include animationPrefixed(expandOddBubbles 8s infinite ease-in-out);
+        }
+        &:nth-child(even) div {
+          @include animationPrefixed(shrinkEvenBubbles 8s infinite ease-in-out);
         }
       }
     }
