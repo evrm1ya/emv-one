@@ -1,0 +1,16 @@
+
+@mixin BubbleMaker($containerName, $artBoxName, $artBoxWidth, $bubbleClass) {
+  #{$containerName} {
+    display: inline-flex;
+    #{$artBoxName} {
+      width: $artBoxWidth;
+      height: $artBoxWidth;
+      position: relative;
+      overflow: hidden;
+      #{$bubbleClass} {
+        position: absolute;
+        border-radius: 50%;
+      }
+    }
+  }
+}

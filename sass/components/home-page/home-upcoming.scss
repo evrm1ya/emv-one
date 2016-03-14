@@ -1,6 +1,6 @@
 
 @import '../../components.scss';
-@import '../bubble-ornament.scss';
+@import '../bubble-maker.scss';
 
 .home-upcoming-container {
   display: flex;
@@ -16,12 +16,12 @@
     justify-content: center;
   }
 
-  $bubbleContainer: '.bubble-ornament-container';
+  $bubbleContainer: '.bubble-maker-container';
   $bubbleArtBox: '.art-box';
   $artBoxWidth: 300px;
   $bubbleClass: '.bubble';
 
-  @include BubbleOrnament($bubbleContainer, $bubbleArtBox, $artBoxWidth, $bubbleClass);
+  @include BubbleMaker($bubbleContainer, $bubbleArtBox, $artBoxWidth, $bubbleClass);
 
   .art-box {
     box-shadow: 0 0 10px 0 $grayStroke;

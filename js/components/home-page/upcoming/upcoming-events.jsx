@@ -1,6 +1,6 @@
 
 import React, {Component, PropTypes} from 'react';
-import {BubbleOrnament} from '../../bubble-ornament/bubble-ornament';
+import {BubbleMaker} from '../../bubble-maker/bubble-maker';
 import {EventBox} from './event-box';
 
 class UpcomingEvents extends React.Component {
@@ -8,8 +8,8 @@ class UpcomingEvents extends React.Component {
     let bubbleColorOptions = ['#8652dc', '#333', '#e0e0e0'];
     let opacityOptions = ['0.3', '0.5', '0.7', '0.9'];
     return <section className='home-upcoming-container'>
-      <BubbleOrnament
-        containerClass='bubble-ornament-container'
+      <BubbleMaker
+        containerClass='bubble-maker-container'
         bubbleClass='bubble'
         artBoxClass='art-box'
         minBubbleWidth={25}
