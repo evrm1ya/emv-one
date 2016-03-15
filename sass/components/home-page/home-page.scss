@@ -36,16 +36,17 @@
       }
     }
   }
-  nav {
-    @include horizontalNav(400px, 60px, 100px);
+  nav.home-nav {
+    @include horizontalNav(400px, 80px, 100px);
+    margin-top: 20px;
+
+    // link borders
     @mixin multiColorBottomBorder($color) {
       color: $color;
       border-bottom: 4px solid $color;
     }
-    margin-top: 20px;
     ul {
       margin: 0;
-      height: 80px;
       li {
         a {
           border-bottom: 4px solid transparent;

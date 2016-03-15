@@ -1,0 +1,50 @@
+
+@import '../../components.scss';
+
+nav.app-navbar {
+  @include horizFlexPerfectCenter;
+  @include horizontalNav(680px, 60px, 100px);
+  background-color: $white;
+  position: fixed;
+  top: 5px;
+  box-shadow: 0 0 5px 0 $grayStroke;
+
+  // link borders
+  @mixin multiColorBottomBorder($color) {
+    color: $color;
+    border-bottom: 4px solid $color;
+  }
+
+  ul {
+    justify-content: space-around;
+    li {
+      a {
+        border-bottom: 4px solid transparent;
+      }
+      &:first-child a {
+        color: $emvRed;
+        &:hover {
+          @include multiColorBottomBorder($emvRed);
+        }
+      }
+      &:nth-child(2) a {
+        color: $emvViolet;
+        &:hover {
+          @include multiColorBottomBorder($emvViolet);
+        }
+      }
+      &:nth-child(3) a {
+        color: $emvBlue;
+        &:hover {
+          @include multiColorBottomBorder($emvBlue);
+        }
+      }
+      &:last-child a {
+        color: $emvGreen;
+        &:hover {
+          @include multiColorBottomBorder($emvGreen);
+        }
+      }
+    }
+  }
+}

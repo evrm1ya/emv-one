@@ -2,5 +2,7 @@
 @import '../../components.scss';
 
 .bass-page {
-  padding: 300px;
+  @include vertFlexPerfectCenter;
+  width: 100%;
+  padding-top: 98px;
 }

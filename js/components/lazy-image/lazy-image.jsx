@@ -15,13 +15,12 @@ class LazyImage extends React.Component {
   }
 
   _updateYOffset(event) {
-    console.log(window.pageYOffset);
     this.setState({yOffset: window.pageYOffset});
   }
 
   _getOffset(yOffLimit, imgSrc) {
     if (!this.state.loaded) {
-      return (this.state.yOffset > yOffLimit) ? imgSrc : '';
+      return (this.state.yOffset >= yOffLimit) ? imgSrc : '';
     }
     return imgSrc;
   }
@@ -32,6 +31,10 @@ class LazyImage extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this._updateYOffset);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._updateYOffset);
   }
 
   render() {

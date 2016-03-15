@@ -471,8 +471,129 @@ p {
 /*********
   Nav
 *********/
+nav.app-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 5px;
+  box-shadow: 0 0 5px 0 #d0d0d0; }
+  @media (max-width: 420px) {
+    nav.app-navbar {
+      width: 100%; } }
+  nav.app-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 680px;
+    height: 60px;
+    list-style-type: none;
+    padding: 0; }
+    nav.app-navbar ul li {
+      width: 100px;
+      height: inherit; }
+      nav.app-navbar ul li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: inherit; }
+  @media (max-width: 400px) {
+    nav.app-navbar {
+      width: 100%; }
+      nav.app-navbar ul {
+        width: inherit; }
+        nav.app-navbar ul li {
+          width: 80px; }
+          nav.app-navbar ul li a {
+            width: 80px; } }
+  nav.app-navbar ul {
+    justify-content: space-around; }
+    nav.app-navbar ul li a {
+      border-bottom: 4px solid transparent; }
+    nav.app-navbar ul li:first-child a {
+      color: #ff392e; }
+      nav.app-navbar ul li:first-child a:hover {
+        color: #ff392e;
+        border-bottom: 4px solid #ff392e; }
+    nav.app-navbar ul li:nth-child(2) a {
+      color: #8652dc; }
+      nav.app-navbar ul li:nth-child(2) a:hover {
+        color: #8652dc;
+        border-bottom: 4px solid #8652dc; }
+    nav.app-navbar ul li:nth-child(3) a {
+      color: #3056ff; }
+      nav.app-navbar ul li:nth-child(3) a:hover {
+        color: #3056ff;
+        border-bottom: 4px solid #3056ff; }
+    nav.app-navbar ul li:last-child a {
+      color: #00ff92; }
+      nav.app-navbar ul li:last-child a:hover {
+        color: #00ff92;
+        border-bottom: 4px solid #00ff92; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
 .bass-page {
-  padding: 300px; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 98px; }
 
 /***********
   Colors
@@ -561,19 +682,23 @@ p {
       .home-page .intro h2 i {
         font-size: 9px;
         margin: 0 10px; }
-  .home-page nav {
+  .home-page nav.home-nav {
     margin-top: 20px; }
-    .home-page nav ul {
+    @media (max-width: 420px) {
+      .home-page nav.home-nav {
+        width: 100%; } }
+    .home-page nav.home-nav ul {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       width: 400px;
-      height: 60px;
+      height: 80px;
       list-style-type: none;
       padding: 0; }
-      .home-page nav ul li {
+      .home-page nav.home-nav ul li {
         width: 100px;
         height: inherit; }
-        .home-page nav ul li a {
+        .home-page nav.home-nav ul li a {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -581,38 +706,37 @@ p {
           width: 100px;
           height: inherit; }
     @media (max-width: 400px) {
-      .home-page nav {
+      .home-page nav.home-nav {
         width: 100%; }
-        .home-page nav ul {
+        .home-page nav.home-nav ul {
           width: inherit; }
-          .home-page nav ul li {
+          .home-page nav.home-nav ul li {
             width: 80px; }
-            .home-page nav ul li a {
+            .home-page nav.home-nav ul li a {
               width: 80px; } }
-    .home-page nav ul {
-      margin: 0;
-      height: 80px; }
-      .home-page nav ul li a {
+    .home-page nav.home-nav ul {
+      margin: 0; }
+      .home-page nav.home-nav ul li a {
         border-bottom: 4px solid transparent;
         font-weight: 700; }
-      .home-page nav ul li:first-child a {
+      .home-page nav.home-nav ul li:first-child a {
         color: #ff392e; }
-        .home-page nav ul li:first-child a:hover {
+        .home-page nav.home-nav ul li:first-child a:hover {
           color: #ff392e;
           border-bottom: 4px solid #ff392e; }
-      .home-page nav ul li:nth-child(2) a {
+      .home-page nav.home-nav ul li:nth-child(2) a {
         color: #8652dc; }
-        .home-page nav ul li:nth-child(2) a:hover {
+        .home-page nav.home-nav ul li:nth-child(2) a:hover {
           color: #8652dc;
           border-bottom: 4px solid #8652dc; }
-      .home-page nav ul li:nth-child(3) a {
+      .home-page nav.home-nav ul li:nth-child(3) a {
         color: #3056ff; }
-        .home-page nav ul li:nth-child(3) a:hover {
+        .home-page nav.home-nav ul li:nth-child(3) a:hover {
           color: #3056ff;
           border-bottom: 4px solid #3056ff; }
-      .home-page nav ul li:last-child a {
+      .home-page nav.home-nav ul li:last-child a {
         color: #00ff92; }
-        .home-page nav ul li:last-child a:hover {
+        .home-page nav.home-nav ul li:last-child a:hover {
           color: #00ff92;
           border-bottom: 4px solid #00ff92; }
 

@@ -20,7 +20,7 @@ class HomePage extends React.Component {
           Web Developer
         </h2>
       </section>
-      <nav>
+      <nav className='home-nav'>
         <ul>
           <li><Link to='/bass'>Bass</Link></li>
           <li><Link to='/portfolio'>Portfolio</Link></li>
