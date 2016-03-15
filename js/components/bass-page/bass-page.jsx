@@ -1,31 +1,20 @@
 
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
+import {LazyImage} from '../lazy-image/lazy-image';
 
 class BassPage extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      yOffset: 0
-    };
-    this._updateYOffset = this._updateYOffset.bind(this);
-  }
-
-  _updateYOffset(event) {
-    console.log(window.pageYOffset);
-    this.setState({yOffset: window.pageYOffset});
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this._updateYOffset);
-  }
   render() {
     return <div className='bass-page'>
-      <img 
-        src='./public/images/jr-recital-small.jpg'
-        style={(this.state.yOffset > 20) ? {display: 'block'} : {display: 'none'}}
+      <LazyImage
+        imgSrc='./public/images/jr-recital-small.jpg'
+        loadOffset={20}
       />
       Bass Page
+      <audio src='./public/music/junior_recital/01_koussy_valse.mp3' controls>
+        <source src='/public/music/junior_recital/01_koussy_valse.mp3' type='audio/mp3'/>
+        <source src='/public/music/junior_recital/01_koussy_valse.ogg' type='audio/mp3'/>
+      </audio>
     </div>
   }
 }
