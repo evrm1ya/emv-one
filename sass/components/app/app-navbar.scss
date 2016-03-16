@@ -6,8 +6,9 @@ nav.app-navbar {
   @include horizontalNav(680px, 60px, 100px);
   background-color: $white;
   position: fixed;
-  top: 5px;
+  top: 10px;
   box-shadow: 0 0 5px 0 $grayStroke;
+  z-index: 999;
 
   // link borders
   @mixin multiColorBottomBorder($color) {
@@ -23,6 +24,10 @@ nav.app-navbar {
       }
       &:first-child {
         @include vertFlexPerfectCenter;
+        h1 {
+          background-color: $grayBackground;
+          padding: 10px;
+        }
       }
       &:nth-child(2) a {
         color: $emvRed;
@@ -49,5 +54,9 @@ nav.app-navbar {
         }
       }
     }
+  }
+  @media #{$mobile} {
+    @include horizontalNav(680px, 60px, 60px);
+    top: 0;
   }
 }

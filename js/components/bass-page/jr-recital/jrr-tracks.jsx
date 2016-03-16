@@ -11,7 +11,7 @@ class JrRecitalTrackBox extends React.Component {
     return <section className='jr-recital-trackBox'>
       <h2>Serge Koussevitzky</h2>
       <TrackList tracks={koussyTracksData} />
-      <h2>Adolf Misek - Sonata No. 1 in A Major, Op. 5</h2>
+      <h2>Sonata No. 1 in A Major, Op. 5 - Adolf Misek </h2>
       <TrackList tracks={misekTracksData} />
     </section>
   }

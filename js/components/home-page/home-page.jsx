@@ -6,6 +6,9 @@ import {HomeUpdates} from './updates/home-updates';
 import {UpcomingEvents} from './upcoming/upcoming-events';
 
 class HomePage extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
   render() {
     return <main className='home-page'>
       <img
