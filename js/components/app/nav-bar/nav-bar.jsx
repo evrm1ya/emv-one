@@ -21,6 +21,7 @@ class NavBar extends React.Component {
   render() {
     return <nav className='app-navbar'>
       <ul>
+        <li><h1>{this.props.pageTitle}</h1></li>
         {this._renderNavBarLinks()}
       </ul>
     </nav>

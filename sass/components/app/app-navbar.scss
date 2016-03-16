@@ -21,19 +21,22 @@ nav.app-navbar {
       a {
         border-bottom: 4px solid transparent;
       }
-      &:first-child a {
+      &:first-child {
+        @include vertFlexPerfectCenter;
+      }
+      &:nth-child(2) a {
         color: $emvRed;
         &:hover {
           @include multiColorBottomBorder($emvRed);
         }
       }
-      &:nth-child(2) a {
+      &:nth-child(3) a {
         color: $emvViolet;
         &:hover {
           @include multiColorBottomBorder($emvViolet);
         }
       }
-      &:nth-child(3) a {
+      &:nth-child(4) a {
         color: $emvBlue;
         &:hover {
           @include multiColorBottomBorder($emvBlue);
