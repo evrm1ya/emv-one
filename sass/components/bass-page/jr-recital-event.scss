@@ -1,13 +1,19 @@
 
 @import '../../components.scss';
 
-[class*='bass-event'] {
+.jr-recital-bass-event {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
   width: 600px;
+  img {
+    width: 200px;
+    height: 280px;
+    border: none;
+    outline: none;
+  }
   @media #{$mobile} {
     width: 100%;
     flex-wrap: wrap;

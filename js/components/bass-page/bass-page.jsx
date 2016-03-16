@@ -14,6 +14,13 @@ class BassPage extends React.Component {
     let bassLinkProps = linkProps.filter((link) => link.id !== 'bass');
     return <main className='bass-page'>
       <NavBar pageTitle='Bass' linkProps={bassLinkProps} />
+      <div className='bass-welcome'>
+        <p>
+          Welcome family and friends! In case you missed a performance
+          or just want to see what I've been up to musically, I'll be
+          periodically adding media to this page. 
+        </p>
+      </div>
       <JrRecitalEvent />
       <JrRecitalTrackBox />
     </main>

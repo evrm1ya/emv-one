@@ -4,6 +4,9 @@ import {EventTextBox} from '../event-components/text-box';
 import {LazyImage} from '../../lazy-image/lazy-image';
 
 class JrRecitalEvent extends React.Component {
+  constructor() {
+    super();
+  }
   render() {
     return <section className='jr-recital-bass-event'>
       <EventTextBox
@@ -13,9 +16,9 @@ class JrRecitalEvent extends React.Component {
         where='Wichita State - Weidemann Hall'
         note='Accompanied by: Sean Foster'
       />
-      <LazyImage
-        imgSrc='./public/images/jr-recital-small.jpg'
-        loadOffset={0}
+      <img 
+        src='./public/images/jr-recital-small.jpg'
+        alt='Evan Vermilyea performing at Weidemann Hall at WSU'
       />
     </section>
   }

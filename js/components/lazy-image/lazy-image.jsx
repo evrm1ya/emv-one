@@ -9,20 +9,15 @@ class LazyImage extends React.Component {
       loaded: false
     };
     this._updateYOffset = this._updateYOffset.bind(this);
-    this._getOffset = this._getOffset.bind(this);
-    this._setLoaded = this._setLoaded.bind(this);
   }
   _updateYOffset(event) {
+    let yOffLimit = this.props.loadOffset;
     this.setState({yOffset: window.pageYOffset});
-  }
-  _getOffset(yOffLimit, imgSrc) {
-    if (!this.state.loaded) {
-      return (this.state.yOffset >= yOffLimit) ? imgSrc : '';
+    if (this.state.yOffset >= yOffLimit) {
+      this.setState({
+        loaded: true
+      });
     }
-    return imgSrc;
-  }
-  _setLoaded() {
-    this.setState({loaded: true});
   }
   componentDidMount() {
     window.addEventListener('scroll', this._updateYOffset);
@@ -30,12 +25,14 @@ class LazyImage extends React.Component {
   componentWillUnmount() {
     window.removeEventListener('scroll', this._updateYOffset);
   }
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log(this.state);
+    return nextState.loaded;
+  }
   render() {
-    let yOffLimit = this.props.loadOffset;
     let imgSrc = this.props.imgSrc;
     return <img
-      src={this._getOffset(yOffLimit, imgSrc)}
-      onLoad={this._setLoaded}
+      src={(this.state.loaded) ? imgSrc : '#'}
     />
   }
 }

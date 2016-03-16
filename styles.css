@@ -700,18 +700,23 @@ p {
 /*********
   Nav
 *********/
-[class*='bass-event'] {
+.jr-recital-bass-event {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
   width: 600px; }
+  .jr-recital-bass-event img {
+    width: 200px;
+    height: 280px;
+    border: none;
+    outline: none; }
   @media (max-width: 420px) {
-    [class*='bass-event'] {
+    .jr-recital-bass-event {
       width: 100%;
       flex-wrap: wrap; }
-      [class*='bass-event'] img {
+      .jr-recital-bass-event img {
         margin-top: 40px; } }
 
 /***********
