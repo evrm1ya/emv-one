@@ -594,6 +594,8 @@ p {
   align-items: center;
   width: 100%;
   padding-top: 98px; }
+  .bass-page h1 {
+    margin-top: 40px; }
 
 /***********
   Colors
@@ -647,13 +649,85 @@ p {
 /*********
   Nav
 *********/
-.jr-recital-bass-event {
+[class*='bass-event'] {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
   width: 600px; }
+  @media (max-width: 420px) {
+    [class*='bass-event'] {
+      width: 100%;
+      flex-wrap: wrap; }
+      [class*='bass-event'] img {
+        margin-top: 40px; } }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+[class*='event-textBox'] {
+  padding: 20px; }
+  [class*='event-textBox'] h2 {
+    margin-top: 0px;
+    font-weight: 700; }
+
+.event-textBox-dark {
+  background-color: #333;
+  color: #f0f0f0; }
+
+.event-textBox-light {
+  background-color: #f0f0f0;
+  color: #333; }
 
 /***********
   Colors

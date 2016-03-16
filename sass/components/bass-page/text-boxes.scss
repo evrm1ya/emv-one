@@ -1,0 +1,20 @@
+
+@import '../../components.scss';
+
+[class*='event-textBox'] {
+  padding: 20px;
+  h2 {
+    margin-top: 0px;
+    font-weight: 700;
+  }
+}
+
+.event-textBox-dark {
+  background-color: $grayFont;
+  color: $grayBackground;
+}
+
+.event-textBox-light {
+  background-color: $grayBackground;
+  color: $grayFont;
+}

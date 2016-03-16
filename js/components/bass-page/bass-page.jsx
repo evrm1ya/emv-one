@@ -4,6 +4,9 @@ import {Link} from 'react-router';
 import {NavBar} from '../app/nav-bar/nav-bar';
 import {linkProps} from '../../stores/nav/link-store';
 import {JrRecitalEvent} from './jr-recital/jr-recital';
+import {jrRecitalTracks} from '../../stores/tracks/tracks';
+
+/** @TODO pass jrRecitalTracks into a track box **/
 
 class BassPage extends React.Component {
   render() {
