@@ -2,7 +2,6 @@
 import React, {Component, PropTypes} from 'react';
 
 class LazyImage extends React.Component {
-
   constructor() {
     super();
     this.state = {
@@ -13,30 +12,24 @@ class LazyImage extends React.Component {
     this._getOffset = this._getOffset.bind(this);
     this._setLoaded = this._setLoaded.bind(this);
   }
-
   _updateYOffset(event) {
     this.setState({yOffset: window.pageYOffset});
   }
-
   _getOffset(yOffLimit, imgSrc) {
     if (!this.state.loaded) {
       return (this.state.yOffset >= yOffLimit) ? imgSrc : '';
     }
     return imgSrc;
   }
-  
   _setLoaded() {
     this.setState({loaded: true});
   }
-
   componentDidMount() {
     window.addEventListener('scroll', this._updateYOffset);
   }
-
   componentWillUnmount() {
     window.removeEventListener('scroll', this._updateYOffset);
   }
-
   render() {
     let yOffLimit = this.props.loadOffset;
     let imgSrc = this.props.imgSrc;

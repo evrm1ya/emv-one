@@ -1,0 +1,11 @@
+
+@import '../../components.scss';
+
+.jr-recital-bass-event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  width: 600px;
+}
