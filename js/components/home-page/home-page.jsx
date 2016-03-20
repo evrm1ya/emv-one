@@ -30,7 +30,7 @@ class HomePage extends React.Component {
           <li><Link to='/bass'>Bass</Link></li>
           <li><Link to='/portfolio'>Portfolio</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
-          <li><Link to='/photos'>Photos</Link></li>
+          <li><Link to='/blog'>Blog</Link></li>
         </ul>
       </nav>
       <ReactSnowflake

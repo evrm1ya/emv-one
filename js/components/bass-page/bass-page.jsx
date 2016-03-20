@@ -8,13 +8,19 @@ import {JrRecitalTrackBox} from './jr-recital/jrr-tracks';
 import {LazyImage} from '../lazy-image/lazy-image';
 
 class BassPage extends React.Component {
+  constructor() {
+    super();
+    this._generateBassNavLinks = this._generateBassNavLinks.bind(this);
+  }
+  _generateBassNavLinks() {
+    return linkProps.filter((link) => link.id !== 'bass');
+  }
   componentDidMount() {
     window.scrollTo(0,0);
   }
   render() {
-    let bassLinkProps = linkProps.filter((link) => link.id !== 'bass');
     return <main className='bass-page'>
-      <NavBar pageTitle='Bass' linkProps={bassLinkProps} />
+      <NavBar pageTitle='Bass' linkProps={this._generateBassNavLinks()} />
       <div className='bass-welcome'>
         <p>
           Welcome family and friends! In case you missed a performance

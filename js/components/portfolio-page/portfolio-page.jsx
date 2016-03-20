@@ -6,10 +6,16 @@ import {VectorCalcsDisplay} from './work-display/vectorcalcs/vc-display';
 import {PortfolioSnowflakeDisplay} from './work-display/port-snowflake/snowflake-display';
 
 class PortfolioPage extends React.Component {
+  constructor() {
+    super();
+    this._generatePortfolioNavLinks = this._generatePortfolioNavLinks.bind(this);
+  }
+  _generatePortfolioNavLinks() {
+    return linkProps.filter((link) => link.id !== 'portfolio');
+  }
   render() {
-    let portfolioLinkProps = linkProps.filter((link) => link.id !== 'portfolio');
     return <div className='portfolio-page'>
-      <NavBar pageTitle='Portfolio' linkProps={portfolioLinkProps} />
+      <NavBar pageTitle='Portfolio' linkProps={this._generatePortfolioNavLinks()} />
       <VectorCalcsDisplay />
       <PortfolioSnowflakeDisplay />
     </div>

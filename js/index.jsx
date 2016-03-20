@@ -6,7 +6,7 @@ import {HomePage} from './components/home-page/home-page';
 import {BassPage} from './components/bass-page/bass-page';
 import {PortfolioPage} from './components/portfolio-page/portfolio-page';
 import {ContactPage} from './components/contact-page/contact-page';
-import {PhotosPage} from './components/photos-page/photos-page';
+import {BlogPage} from './components/blog-page/blog-page';
 
 class MainLayout extends React.Component {
   constructor() {
@@ -37,7 +37,7 @@ ReactDOM.render(
       <Route path='/bass' component={BassPage}></Route>
       <Route path='/portfolio' component={PortfolioPage}></Route>
       <Route path='/contact' component={ContactPage}></Route>
-      <Route path='/photos' component={PhotosPage}></Route>
+      <Route path='/blog' component={BlogPage}></Route>
     </Route>
   </Router>,
   document.querySelector('.app-container')
