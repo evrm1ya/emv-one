@@ -3,6 +3,10 @@
 
 .skill-box {
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   span {
     display: inline-block;
     margin: 5px 0 0 5px;

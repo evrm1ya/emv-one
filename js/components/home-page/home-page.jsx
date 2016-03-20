@@ -11,10 +11,12 @@ class HomePage extends React.Component {
   }
   render() {
     return <main className='home-page'>
-      <img
-        src='./public/images/emv-prof.jpg'
-        alt='A portrait of Evan Vermilyea made with melted crayons.'
-      />
+      <div className='home-img-container'>
+        <img
+          src='./public/images/emv-prof-small.jpg'
+          alt='A portrait of Evan Vermilyea made with melted crayons.'
+        />
+      </div>
       <section className='intro'>
         <h1>Evan Vermilyea</h1>
         <h2>

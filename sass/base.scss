@@ -27,6 +27,8 @@ $cssBlueDark: rgb(12, 115, 184);
 $jsYellowDark: rgb(228, 162, 40);
 $jQueryBlueLight: rgb(31, 162, 201);
 $jQueryUIYellow: rgb(254, 166, 32);
+$reactBlue: rgb(0, 216, 255);
+$sassPink: rgb(205, 102, 154);
 
 /*********
   Fonts
@@ -127,4 +129,12 @@ span.skill-jq {
 
 span.skill-jq-ui {
   @include skillTag($jQueryUIYellow);
+}
+
+span.skill-react {
+  @include skillTag($reactBlue);
+}
+
+span.skill-sass {
+  @include skillTag($sassPink);
 }

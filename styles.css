@@ -79,6 +79,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /***********
   Colors
 ***********/
@@ -159,6 +173,20 @@ span.skill-jq-ui {
   color: #fff;
   font-weight: 700;
   background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
 
 /**********
   Mixins
@@ -250,6 +278,20 @@ span.skill-jq-ui {
   color: #fff;
   font-weight: 700;
   background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
 
 /**********
   Mixins
@@ -568,6 +610,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
 
@@ -652,539 +708,19 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.bass-page {
-  width: 100%; }
-  .bass-page h1 {
-    margin-top: 0; }
-  .bass-page .bass-welcome {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f0f0f0; }
-    .bass-page .bass-welcome p {
-      margin-top: 0; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
+span.skill-react {
   padding: 4px;
   border-radius: 3px;
   color: #fff;
   font-weight: 700;
-  background-color: #e44d26; }
+  background-color: #00d8ff; }
 
-span.skill-css {
+span.skill-sass {
   padding: 4px;
   border-radius: 3px;
   color: #fff;
   font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.jr-recital-bass-event {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 40px;
-  width: 100%; }
-  .jr-recital-bass-event img {
-    width: 200px;
-    height: 280px;
-    border: none;
-    outline: none; }
-  @media (max-width: 420px) {
-    .jr-recital-bass-event {
-      width: 100%;
-      flex-wrap: wrap; }
-      .jr-recital-bass-event img {
-        margin-top: 40px; } }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.jr-recital-trackBox h2 {
-  align-self: flex-end; }
-  .jr-recital-trackBox h2:first-child {
-    align-self: flex-start; }
-
-@media (max-width: 420px) {
-  .jr-recital-trackBox h2 {
-    align-self: flex-start;
-    margin-left: 5px; } }
-
-.jr-recital-trackBox ul:last-child {
-  align-self: flex-end; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-[class*='event-textBox'] {
-  padding: 20px; }
-  [class*='event-textBox'] h2 {
-    margin-top: 0px;
-    font-weight: 700; }
-
-.event-textBox-dark {
-  background-color: #333;
-  color: #f0f0f0; }
-
-.event-textBox-light {
-  background-color: #f0f0f0;
-  color: #333; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-[class*='trackBox'] {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 40px;
-  width: 100%;
-  padding: 20px; }
-  @media (max-width: 420px) {
-    [class*='trackBox'] {
-      align-items: center;
-      padding: 0px; } }
-  [class*='trackBox'] ul {
-    display: inline-flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 20px;
-    background-color: #f0f0f0;
-    padding: 20px; }
-    @media (max-width: 420px) {
-      [class*='trackBox'] ul {
-        padding: 10px; } }
-    [class*='trackBox'] ul li p {
-      margin-bottom: 10px; }
-    [class*='trackBox'] ul li audio {
-      position: relative;
-      z-index: 1; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
+  background-color: #cd669a; }
 
 /**********
   Mixins
@@ -1390,6 +926,624 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.bass-page {
+  width: 100%; }
+  .bass-page h1 {
+    margin-top: 0; }
+  .bass-page .bass-welcome {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0; }
+    .bass-page .bass-welcome p {
+      margin-top: 0; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.jr-recital-bass-event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%; }
+  .jr-recital-bass-event img {
+    width: 200px;
+    height: 280px;
+    border: none;
+    outline: none; }
+  @media (max-width: 420px) {
+    .jr-recital-bass-event {
+      width: 100%;
+      flex-wrap: wrap; }
+      .jr-recital-bass-event img {
+        margin-top: 40px; } }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.jr-recital-trackBox h2 {
+  align-self: flex-end; }
+  .jr-recital-trackBox h2:first-child {
+    align-self: flex-start; }
+
+@media (max-width: 420px) {
+  .jr-recital-trackBox h2 {
+    align-self: flex-start;
+    margin-left: 5px; } }
+
+.jr-recital-trackBox ul:last-child {
+  align-self: flex-end; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+[class*='event-textBox'] {
+  padding: 20px; }
+  [class*='event-textBox'] h2 {
+    margin-top: 0px;
+    font-weight: 700; }
+
+.event-textBox-dark {
+  background-color: #333;
+  color: #f0f0f0; }
+
+.event-textBox-light {
+  background-color: #f0f0f0;
+  color: #333; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+[class*='trackBox'] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  width: 100%;
+  padding: 20px; }
+  @media (max-width: 420px) {
+    [class*='trackBox'] {
+      align-items: center;
+      padding: 0px; } }
+  [class*='trackBox'] ul {
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px; }
+    @media (max-width: 420px) {
+      [class*='trackBox'] ul {
+        padding: 10px; } }
+    [class*='trackBox'] ul li p {
+      margin-bottom: 10px; }
+    [class*='trackBox'] ul li audio {
+      position: relative;
+      z-index: 1; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -1404,9 +1558,15 @@ span.skill-jq-ui {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .home-page img {
-    width: 250px;
-    height: 300px; }
+  .home-page .home-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    width: 100%; }
+    .home-page .home-img-container img {
+      width: 250px;
+      height: 300px; }
   .home-page .intro {
     display: flex;
     flex-direction: column;
@@ -1578,6 +1738,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -1666,6 +1840,20 @@ span.skill-jq-ui {
   color: #fff;
   font-weight: 700;
   background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
 
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
@@ -2137,6 +2325,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -2494,6 +2696,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -2575,6 +2791,7 @@ span.skill-jq-ui {
 /*********
   Base
 *********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
 * {
   box-sizing: border-box; }
 
@@ -2643,6 +2860,20 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -2652,15 +2883,499 @@ span.skill-jq-ui {
 /*********
   Nav
 *********/
-.portfolio-page {
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
   width: 100%; }
-  .portfolio-page h1 {
-    margin-top: 0; }
-    @media (max-width: 420px) {
-      .portfolio-page h1 {
-        font-size: 18px; } }
-  .portfolio-page section {
-    margin-top: 40px; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/** ANIMATION MIXINS **/
+/** PREFIXES **/
+.port-snowflake-display {
+  display: flex;
+  flex-direction: column; }
+  .port-snowflake-display .port-snowflake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    /* SNOWFLAKE ANIMATIONS */ }
+
+@-webkit-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-ms-keyframes widenOddContainerLines {
+  .port-snowflake-display .port-snowflake-container 0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  .port-snowflake-display .port-snowflake-container 50% {
+    width: 200%; }
+  .port-snowflake-display .port-snowflake-container 100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes widenOddContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 200%; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-moz-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-o-keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@keyframes shrinkEvenContainerLines {
+  0% {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  50% {
+    width: 1px; }
+  100% {
+    width: 100%;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+
+@-webkit-keyframes rotateGear {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateY(0deg) rotateZ(0deg);
+    transform: rotateY(0deg) rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateZ(360deg);
+    -moz-transform: rotateY(360deg) rotateZ(360deg);
+    -ms-transform: rotateY(360deg) rotateZ(360deg);
+    -o-transform: rotateY(360deg) rotateZ(360deg);
+    transform: rotateY(360deg) rotateZ(360deg); } }
+
+@-moz-keyframes rotateGear {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateY(0deg) rotateZ(0deg);
+    transform: rotateY(0deg) rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateZ(360deg);
+    -moz-transform: rotateY(360deg) rotateZ(360deg);
+    -ms-transform: rotateY(360deg) rotateZ(360deg);
+    -o-transform: rotateY(360deg) rotateZ(360deg);
+    transform: rotateY(360deg) rotateZ(360deg); } }
+
+@-ms-keyframes rotateGear {
+  .port-snowflake-display .port-snowflake-container 0% {
+    -webkit-transform: rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateY(0deg) rotateZ(0deg);
+    transform: rotateY(0deg) rotateZ(0deg); }
+  .port-snowflake-display .port-snowflake-container 100% {
+    -webkit-transform: rotateY(360deg) rotateZ(360deg);
+    -moz-transform: rotateY(360deg) rotateZ(360deg);
+    -ms-transform: rotateY(360deg) rotateZ(360deg);
+    -o-transform: rotateY(360deg) rotateZ(360deg);
+    transform: rotateY(360deg) rotateZ(360deg); } }
+
+@-o-keyframes rotateGear {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateY(0deg) rotateZ(0deg);
+    transform: rotateY(0deg) rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateZ(360deg);
+    -moz-transform: rotateY(360deg) rotateZ(360deg);
+    -ms-transform: rotateY(360deg) rotateZ(360deg);
+    -o-transform: rotateY(360deg) rotateZ(360deg);
+    transform: rotateY(360deg) rotateZ(360deg); } }
+
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    -moz-transform: rotateY(0deg) rotateX(0deg);
+    -ms-transform: rotateY(0deg) rotateX(0deg);
+    -o-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg);
+    -moz-transform: rotateY(360deg) rotateX(-360deg);
+    -ms-transform: rotateY(360deg) rotateX(-360deg);
+    -o-transform: rotateY(360deg) rotateX(-360deg);
+    transform: rotateY(360deg) rotateX(-360deg); } }
+
+@-moz-keyframes wobble {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    -moz-transform: rotateY(0deg) rotateX(0deg);
+    -ms-transform: rotateY(0deg) rotateX(0deg);
+    -o-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg);
+    -moz-transform: rotateY(360deg) rotateX(-360deg);
+    -ms-transform: rotateY(360deg) rotateX(-360deg);
+    -o-transform: rotateY(360deg) rotateX(-360deg);
+    transform: rotateY(360deg) rotateX(-360deg); } }
+
+@-ms-keyframes wobble {
+  .port-snowflake-display .port-snowflake-container 0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    -moz-transform: rotateY(0deg) rotateX(0deg);
+    -ms-transform: rotateY(0deg) rotateX(0deg);
+    -o-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  .port-snowflake-display .port-snowflake-container 100% {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg);
+    -moz-transform: rotateY(360deg) rotateX(-360deg);
+    -ms-transform: rotateY(360deg) rotateX(-360deg);
+    -o-transform: rotateY(360deg) rotateX(-360deg);
+    transform: rotateY(360deg) rotateX(-360deg); } }
+
+@-o-keyframes wobble {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    -moz-transform: rotateY(0deg) rotateX(0deg);
+    -ms-transform: rotateY(0deg) rotateX(0deg);
+    -o-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg);
+    -moz-transform: rotateY(360deg) rotateX(-360deg);
+    -ms-transform: rotateY(360deg) rotateX(-360deg);
+    -o-transform: rotateY(360deg) rotateX(-360deg);
+    transform: rotateY(360deg) rotateX(-360deg); } }
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    -moz-transform: rotateY(0deg) rotateX(0deg);
+    -ms-transform: rotateY(0deg) rotateX(0deg);
+    -o-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  100% {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg);
+    -moz-transform: rotateY(360deg) rotateX(-360deg);
+    -ms-transform: rotateY(360deg) rotateX(-360deg);
+    -o-transform: rotateY(360deg) rotateX(-360deg);
+    transform: rotateY(360deg) rotateX(-360deg); } }
+    .port-snowflake-display .port-snowflake-container .art-box {
+      width: 300px;
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: relative; }
+      .port-snowflake-display .port-snowflake-container .art-box .line-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent; }
+        .port-snowflake-display .port-snowflake-container .art-box .line-container .inner-line {
+          width: 50%;
+          height: 100%; }
+          .port-snowflake-display .port-snowflake-container .art-box .line-container .inner-line:first-child {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg); }
+        .port-snowflake-display .port-snowflake-container .art-box .line-container:nth-child(odd) div {
+          -webkit-animation: widenOddContainerLines 8s ease-in-out infinite;
+          -moz-animation: widenOddContainerLines 8s ease-in-out infinite;
+          -ms-animation: widenOddContainerLines 8s ease-in-out infinite;
+          -o-animation: widenOddContainerLines 8s ease-in-out infinite;
+          animation: widenOddContainerLines 8s ease-in-out infinite; }
+        .port-snowflake-display .port-snowflake-container .art-box .line-container:nth-child(even) div {
+          -webkit-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+          -moz-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+          -ms-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+          -o-animation: shrinkEvenContainerLines 8s ease-in-out infinite;
+          animation: shrinkEvenContainerLines 8s ease-in-out infinite; }
+    .port-snowflake-display .port-snowflake-container .btn-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 50px; }
+      .port-snowflake-display .port-snowflake-container .btn-box div {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px; }
+        .port-snowflake-display .port-snowflake-container .btn-box div a {
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: #333;
+          width: 30px;
+          height: 30px;
+          border: 2px solid transparent;
+          border-radius: 50%; }
+        .port-snowflake-display .port-snowflake-container .btn-box div:hover a {
+          color: #00ff92;
+          border: 2px solid #00ff92;
+          -webkit-transform-style: preserve-3d;
+          -moz-transform-style: preserve-3d;
+          -ms-transform-style: preserve-3d;
+          -o-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+          -webkit-transform: perspective(200px);
+          -moz-transform: perspective(200px);
+          -ms-transform: perspective(200px);
+          -o-transform: perspective(200px);
+          transform: perspective(200px);
+          -webkit-animation: wobble 4s infinite linear;
+          -moz-animation: wobble 4s infinite linear;
+          -ms-animation: wobble 4s infinite linear;
+          -o-animation: wobble 4s infinite linear;
+          animation: wobble 4s infinite linear; }
+          .port-snowflake-display .port-snowflake-container .btn-box div:hover a i {
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transform: perspective(200px);
+            -moz-transform: perspective(200px);
+            -ms-transform: perspective(200px);
+            -o-transform: perspective(200px);
+            transform: perspective(200px);
+            -webkit-animation: rotateGear 4s infinite linear;
+            -moz-animation: rotateGear 4s infinite linear;
+            -ms-animation: rotateGear 4s infinite linear;
+            -o-animation: rotateGear 4s infinite linear;
+            animation: rotateGear 4s infinite linear; }
+  .port-snowflake-display .snowflake-description {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333; }
+    .port-snowflake-display .snowflake-description p {
+      color: #fff; }
+    .port-snowflake-display .snowflake-description p:first-child {
+      margin-top: 0; }
 
 /***********
   Colors
@@ -2743,6 +3458,136 @@ span.skill-jq-ui {
   font-weight: 700;
   background-color: #fea620; }
 
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.portfolio-page {
+  width: 100%; }
+  .portfolio-page h1 {
+    margin-top: 0; }
+    @media (max-width: 420px) {
+      .portfolio-page h1 {
+        font-size: 18px; } }
+  .portfolio-page section {
+    margin-top: 40px; }
+    .portfolio-page section > h2 {
+      padding-left: 20px; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
 /**********
   Mixins
 **********/
@@ -2753,7 +3598,11 @@ span.skill-jq-ui {
   Nav
 *********/
 .skill-box {
-  margin-top: 10px; }
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
   .skill-box span {
     display: inline-block;
     margin: 5px 0 0 5px; }
@@ -2838,6 +3687,20 @@ span.skill-jq-ui {
   color: #fff;
   font-weight: 700;
   background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
 
 /**********
   Mixins

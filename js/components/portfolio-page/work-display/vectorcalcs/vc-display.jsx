@@ -22,6 +22,9 @@ class VectorCalcsDisplay extends React.Component {
           application was the first I designed, developed, and launched. It was
           and continues to be a great learning experience.
         </p>
+        <p>
+          Built with:
+        </p>
         <div className='skill-box'>
           <SkillTag skillClass='skill-html' skillText='HTML5' />
           <SkillTag skillClass='skill-css' skillText='CSS3' />

@@ -4,9 +4,16 @@
 .home-page {
   padding-top: 100px;
   @include mainLayoutPage;
-  img {
-    width: 250px;
+  .home-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 300px;
+    width: 100%;
+    img {
+      width: 250px;
+      height: 300px;
+    }
   }
   .intro {
     @include vertFlexPerfectCenter;

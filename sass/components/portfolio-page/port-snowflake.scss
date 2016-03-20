@@ -1,0 +1,31 @@
+
+@import '../../components.scss';
+@import '../snowflake.scss';
+
+.port-snowflake-display {
+  display: flex;
+  flex-direction: column;
+  .port-snowflake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    $artBox: '.art-box';
+    $lineCont: '.line-container';
+    $innerLine: '.inner-line';
+    $contWidth: 300px;
+    $btnCont: '.btn-box';
+    @include SnowflakeStyles($artBox, $lineCont, $innerLine, $contWidth, $btnCont, $emvGreen);
+  }
+  .snowflake-description {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: $grayFont;
+    p {
+      color: $white;
+    }
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}
