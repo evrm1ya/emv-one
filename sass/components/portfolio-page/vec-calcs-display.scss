@@ -1,0 +1,23 @@
+
+@import '../../components';
+
+.vec-calcs-display {
+  display: flex;
+  flex-direction: column;
+  .vc-screenshot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    & > div {
+      box-shadow: 0 0 10px 0 $grayFont;
+      img {
+        width: 400px;
+        height: 243px;
+        @media #{$mobile} {
+          width: 300px;
+          height: 182px;
+        }
+      }
+    }
+  }
+}
