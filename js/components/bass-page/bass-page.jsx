@@ -5,6 +5,7 @@ import {NavBar} from '../app/nav-bar/nav-bar';
 import {linkProps} from '../../stores/nav/link-store';
 import {JrRecitalEvent} from './jr-recital/jr-recital';
 import {JrRecitalTrackBox} from './jr-recital/jrr-tracks';
+import {LazyImage} from '../lazy-image/lazy-image';
 
 class BassPage extends React.Component {
   componentDidMount() {

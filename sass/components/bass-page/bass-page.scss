@@ -2,10 +2,14 @@
 @import '../../components.scss';
 
 .bass-page {
-  @include vertFlexPerfectCenter;
   width: 100%;
   padding-top: 98px;
   h1 {
     margin-top: 0;
+  }
+  .bass-welcome {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: $grayBackground;
   }
 }

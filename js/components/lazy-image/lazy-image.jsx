@@ -1,39 +1,32 @@
 
 import React, {Component, PropTypes} from 'react';
+import {Image} from './image';
 
 class LazyImage extends React.Component {
   constructor() {
     super();
     this.state = {
-      yOffset: 0,
-      loaded: false
-    };
-    this._updateYOffset = this._updateYOffset.bind(this);
+      show: false
+    }
+    this._updatePosition = this._updatePosition.bind(this);
   }
-  _updateYOffset(event) {
-    let yOffLimit = this.props.loadOffset;
-    this.setState({yOffset: window.pageYOffset});
-    if (this.state.yOffset >= yOffLimit) {
-      this.setState({
-        loaded: true
-      });
+  _updatePosition() {
+    if (window.pageYOffset >= this.props.offset) {
+      this.setState({show: true});
     }
   }
-  componentDidMount() {
-    window.addEventListener('scroll', this._updateYOffset);
+  componentWillMount() {
+    window.addEventListener('scroll', this._updatePosition, false);
   }
   componentWillUnmount() {
-    window.removeEventListener('scroll', this._updateYOffset);
-  }
-  shouldComponentUpdate(nextProps, nextState) {
-    console.log(this.state);
-    return nextState.loaded;
+    window.removeEventListener('scroll', this._updatePosition);
   }
   render() {
-    let imgSrc = this.props.imgSrc;
-    return <img
-      src={(this.state.loaded) ? imgSrc : '#'}
-    />
+    return <div className='lazy-img-cont'>
+      <Image 
+        imgSrc={(this.state.show) ? this.props.imgSrc : this.props.tempSrc} 
+      />
+    </div>
   }
 }
 
