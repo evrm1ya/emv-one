@@ -5,8 +5,7 @@ nav.app-navbar {
   @include horizFlexPerfectCenter;
   @include horizontalNav(680px, 60px, 100px);
   background-color: $white;
-  position: fixed;
-  top: 10px;
+  margin-top: 10px;
   box-shadow: 0 0 5px 0 $grayStroke;
   z-index: 999;
 

@@ -48,6 +48,9 @@
     }
     &.reverse {
       color: $emvRed;
+      i {
+        margin-right: 2px;
+      }
       &:hover {
         color: $white;
         background-color: $emvRed;

@@ -20,6 +20,14 @@ $grayFadedFont: #555;
 $grayFont: #333;
 $grayDarkFont: #101010;
 
+// skill colors
+$htmlOrangeLight: rgb(244, 243, 70);
+$htmlOrangeDark: rgb(228, 77, 38);
+$cssBlueDark: rgb(12, 115, 184);
+$jsYellowDark: rgb(228, 162, 40);
+$jQueryBlueLight: rgb(31, 162, 201);
+$jQueryUIYellow: rgb(254, 166, 32);
+
 /*********
   Fonts
 *********/
@@ -88,3 +96,35 @@ p {
 
 $mobile: "(max-width: 420px)"; 
 
+
+/*************
+  Skill Tags
+*************/
+
+@mixin skillTag($bgColor) {
+  padding: 4px;
+  border-radius: 3px;
+  color: $white;
+  font-weight: 700;
+  background-color: $bgColor;
+}
+
+span.skill-html {
+  @include skillTag($htmlOrangeDark);  
+}
+
+span.skill-css {
+  @include skillTag($cssBlueDark);
+}
+
+span.skill-js {
+  @include skillTag($jsYellowDark);
+}
+
+span.skill-jq {
+  @include skillTag($jQueryBlueLight);
+}
+
+span.skill-jq-ui {
+  @include skillTag($jQueryUIYellow);
+}
