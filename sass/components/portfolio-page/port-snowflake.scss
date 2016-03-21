@@ -10,6 +10,8 @@
     flex-direction: column;
     align-items: center;
     align-self: center;
+    box-shadow: 0 0 10px 0 $grayStroke;
+    margin-top: 40px;
     $artBox: '.art-box';
     $lineCont: '.line-container';
     $innerLine: '.inner-line';
@@ -18,7 +20,7 @@
     @include SnowflakeStyles($artBox, $lineCont, $innerLine, $contWidth, $btnCont, $emvGreen);
   }
   .snowflake-description {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
     background-color: $grayFont;
     p {

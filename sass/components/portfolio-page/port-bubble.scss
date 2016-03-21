@@ -1,0 +1,18 @@
+
+@import '../../components.scss';
+@import '../bubble-maker.scss';
+
+.port-bubble-display {
+  display: flex;
+  flex-direction: column;
+  $contName: '.port-bubble-container';
+  $artBoxName: '.art-box';
+  $artBoxWidth: 300px;
+  $bubbleClass: '.bubble';
+  @include BubbleMaker($contName, $artBoxName, $artBoxWidth, $bubbleClass);
+  .port-bubble-container {
+    align-self: center;
+    margin-top: 40px;
+    box-shadow: 0 0 10px 0 $grayStroke;
+  }
+}

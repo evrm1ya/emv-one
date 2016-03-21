@@ -4,6 +4,7 @@ import {NavBar} from '../app/nav-bar/nav-bar';
 import {linkProps} from '../../stores/nav/link-store';
 import {VectorCalcsDisplay} from './work-display/vectorcalcs/vc-display';
 import {PortfolioSnowflakeDisplay} from './work-display/port-snowflake/snowflake-display';
+import {PortfolioBubbleDisplay} from './work-display/port-bubble/port-bubble';
 
 class PortfolioPage extends React.Component {
   constructor() {
@@ -18,6 +19,7 @@ class PortfolioPage extends React.Component {
       <NavBar pageTitle='Portfolio' linkProps={this._generatePortfolioNavLinks()} />
       <VectorCalcsDisplay />
       <PortfolioSnowflakeDisplay />
+      <PortfolioBubbleDisplay />
     </div>
   }
 }
