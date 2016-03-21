@@ -12,9 +12,20 @@ class ContactPage extends React.Component {
   _generateContactNavLinks() {
     return linkProps.filter((link) => link.id !== 'contact');
   }
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
   render() {
     return <div>
       <NavBar pageTitle='Contact' linkProps={this._generateContactNavLinks()} />
+      <div className='temporary-contact'>
+        <h2>Temporary Contact Info</h2>  
+        <p>Want to build something?</p>
+        <p>
+          For the time being, please contact me at: evan@evanvermilyea.com.
+        </p>
+        <p>Thank you!</p>
+      </div>
     </div>
   }
 }

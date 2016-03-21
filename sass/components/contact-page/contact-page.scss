@@ -1,0 +1,11 @@
+
+.temporary-contact {
+  @include vertFlexPerfectCenter;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: $grayBackground;
+  h2 {
+    color: $emvRed;
+    margin: 0;
+  }
+}

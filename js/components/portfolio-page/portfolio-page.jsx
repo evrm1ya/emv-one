@@ -15,6 +15,9 @@ class PortfolioPage extends React.Component {
   _generatePortfolioNavLinks() {
     return linkProps.filter((link) => link.id !== 'portfolio');
   }
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
   render() {
     return <div className='portfolio-page'>
       <NavBar pageTitle='Portfolio' linkProps={this._generatePortfolioNavLinks()} />

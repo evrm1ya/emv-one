@@ -45,16 +45,6 @@
       cursor: pointer;
     }
     &.reverse {
-      color: $emvRed;
-      i {
-        margin-right: 2px;
-      }
-      &:hover {
-        color: $white;
-        background-color: $emvRed;
-      }
-    }
-    &.forward {
       color: $emvBlue;
       margin-left: 10px;
       i {
@@ -63,6 +53,16 @@
       &:hover {
         color: $white;
         background-color: $emvBlue;
+      }
+    }
+    &.forward {
+      color: $emvRed;
+      i {
+        margin-right: 2px;
+      }
+      &:hover {
+        color: $white;
+        background-color: $emvRed;
       }
     }
     &.dark {

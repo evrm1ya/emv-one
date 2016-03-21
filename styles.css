@@ -898,20 +898,20 @@ nav.app-navbar {
     .home-update-container button:hover {
       cursor: pointer; }
     .home-update-container button.reverse {
-      color: #ff392e; }
-      .home-update-container button.reverse i {
-        margin-right: 2px; }
-      .home-update-container button.reverse:hover {
-        color: #fff;
-        background-color: #ff392e; }
-    .home-update-container button.forward {
       color: #3056ff;
       margin-left: 10px; }
-      .home-update-container button.forward i {
+      .home-update-container button.reverse i {
         margin-left: 2px; }
-      .home-update-container button.forward:hover {
+      .home-update-container button.reverse:hover {
         color: #fff;
         background-color: #3056ff; }
+    .home-update-container button.forward {
+      color: #ff392e; }
+      .home-update-container button.forward i {
+        margin-right: 2px; }
+      .home-update-container button.forward:hover {
+        color: #fff;
+        background-color: #ff392e; }
     .home-update-container button.dark {
       color: #d0d0d0; }
       .home-update-container button.dark:hover {
@@ -1707,6 +1707,18 @@ nav.app-navbar {
     margin-top: 40px; }
     .portfolio-page section > h2 {
       padding-left: 20px; }
+
+.temporary-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #f0f0f0; }
+  .temporary-contact h2 {
+    color: #ff392e;
+    margin: 0; }
 
 .coming-soon {
   display: flex;
