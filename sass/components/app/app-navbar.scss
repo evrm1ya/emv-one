@@ -1,6 +1,4 @@
 
-@import '../../components.scss';
-
 nav.app-navbar {
   @include horizFlexPerfectCenter;
   @include horizontalNav(680px, 60px, 100px);

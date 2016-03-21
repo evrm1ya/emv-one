@@ -121,271 +121,6 @@ span.skill-meteor {
   font-weight: 700;
   background-color: #de4a4a; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
 .main-layout {
   display: flex;
   flex-direction: column;
@@ -403,6 +138,17 @@ span.skill-meteor {
     .main-layout .content footer {
       margin: 40px 0; }
 
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+/** ANIMATION MIXINS **/
+/** PREFIXES **/
 /** PREFIXES **/
 @keyframes float {
   0% {
@@ -612,265 +358,6 @@ span.skill-meteor {
     -o-transform: scale(1);
     transform: scale(1); } }
 
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/** ANIMATION MIXINS **/
-/** PREFIXES **/
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
 nav.app-navbar {
   display: flex;
   flex-direction: row;
@@ -986,1386 +473,6 @@ nav.app-navbar {
             width: 60px;
             font-size: 14px; } }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.bass-page {
-  width: 100%; }
-  .bass-page h1 {
-    margin-top: 0; }
-  .bass-page .bass-welcome {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f0f0f0; }
-    .bass-page .bass-welcome p {
-      margin-top: 0; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.jr-recital-bass-event {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 40px;
-  width: 100%; }
-  .jr-recital-bass-event img {
-    width: 200px;
-    height: 280px;
-    border: none;
-    outline: none; }
-  @media (max-width: 420px) {
-    .jr-recital-bass-event {
-      width: 100%;
-      flex-wrap: wrap; }
-      .jr-recital-bass-event img {
-        margin-top: 40px; } }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.jr-recital-trackBox h2 {
-  align-self: flex-end; }
-  .jr-recital-trackBox h2:first-child {
-    align-self: flex-start; }
-
-@media (max-width: 420px) {
-  .jr-recital-trackBox h2 {
-    align-self: flex-start;
-    margin-left: 5px; } }
-
-.jr-recital-trackBox ul:last-child {
-  align-self: flex-end; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-[class*='event-textBox'] {
-  padding: 20px; }
-  [class*='event-textBox'] h2 {
-    margin-top: 0px;
-    font-weight: 700; }
-
-.event-textBox-dark {
-  background-color: #333;
-  color: #f0f0f0; }
-
-.event-textBox-light {
-  background-color: #f0f0f0;
-  color: #333; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-[class*='trackBox'] {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 40px;
-  width: 100%;
-  padding: 20px; }
-  @media (max-width: 420px) {
-    [class*='trackBox'] {
-      align-items: center;
-      padding: 0px; } }
-  [class*='trackBox'] ul {
-    display: inline-flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 20px;
-    background-color: #f0f0f0;
-    padding: 20px; }
-    @media (max-width: 420px) {
-      [class*='trackBox'] ul {
-        padding: 10px; } }
-    [class*='trackBox'] ul li p {
-      margin-bottom: 10px; }
-    [class*='trackBox'] ul li audio {
-      position: relative;
-      z-index: 1; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.coming-soon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0;
-  padding: 40px;
-  background-color: #f0f0f0; }
-  .coming-soon h2 {
-    color: #ff392e;
-    margin: 0; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.home-page {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .home-page .home-img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 300px;
-    width: 100%; }
-    .home-page .home-img-container img {
-      width: 250px;
-      height: 300px; }
-  .home-page .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    margin-top: 20px; }
-    @media (max-width: 420px) {
-      .home-page .intro {
-        color: #333;
-        background-color: #fff;
-        padding: 0; } }
-    .home-page .intro h1 {
-      font-size: 20px;
-      font-weight: 700;
-      margin: 0; }
-    .home-page .intro h2 {
-      font-size: 18px;
-      display: flex;
-      flex-direction: row;
-      align-items: center; }
-      .home-page .intro h2 i {
-        font-size: 9px;
-        margin: 0 10px; }
-  .home-page nav.home-nav {
-    margin-top: 20px; }
-    @media (max-width: 420px) {
-      .home-page nav.home-nav {
-        width: 100%; } }
-    .home-page nav.home-nav ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      width: 400px;
-      height: 80px;
-      list-style-type: none;
-      padding: 0; }
-      .home-page nav.home-nav ul li {
-        width: 100px;
-        height: inherit; }
-        .home-page nav.home-nav ul li a {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100px;
-          height: inherit; }
-    @media (max-width: 400px) {
-      .home-page nav.home-nav {
-        width: 100%; }
-        .home-page nav.home-nav ul {
-          width: inherit; }
-          .home-page nav.home-nav ul li {
-            width: 60px; }
-            .home-page nav.home-nav ul li h1 {
-              font-size: 18px; }
-            .home-page nav.home-nav ul li a {
-              width: 60px;
-              font-size: 14px; } }
-    .home-page nav.home-nav ul {
-      margin: 0; }
-      .home-page nav.home-nav ul li a {
-        border-bottom: 4px solid transparent;
-        font-weight: 700; }
-      .home-page nav.home-nav ul li:first-child a {
-        color: #ff392e; }
-        .home-page nav.home-nav ul li:first-child a:hover {
-          color: #ff392e;
-          border-bottom: 4px solid #ff392e; }
-      .home-page nav.home-nav ul li:nth-child(2) a {
-        color: #8652dc; }
-        .home-page nav.home-nav ul li:nth-child(2) a:hover {
-          color: #8652dc;
-          border-bottom: 4px solid #8652dc; }
-      .home-page nav.home-nav ul li:nth-child(3) a {
-        color: #3056ff; }
-        .home-page nav.home-nav ul li:nth-child(3) a:hover {
-          color: #3056ff;
-          border-bottom: 4px solid #3056ff; }
-      .home-page nav.home-nav ul li:last-child a {
-        color: #00ff92; }
-        .home-page nav.home-nav ul li:last-child a:hover {
-          color: #00ff92;
-          border-bottom: 4px solid #00ff92; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/** ANIMATION MIXINS **/
-/** PREFIXES **/
 /* SNOWFLAKE ANIMATIONS */
 @-webkit-keyframes widenOddContainerLines {
   0% {
@@ -2753,346 +860,64 @@ span.skill-meteor {
   margin-top: 20px;
   box-shadow: 0 0 10px 0 #e0e0e0; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
+.home-update-container {
   width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-/** PREFIXES **/
-@keyframes float {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: initial; }
-  100% {
-    opacity: 0; } }
-
-@-webkit-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-moz-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-ms-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-o-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-webkit-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-moz-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-ms-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-o-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #f0f0f0; }
+  .home-update-container h2 {
+    font-weight: 700;
+    margin: 0 0 40px 0; }
+  .home-update-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px; }
+    .home-update-container ul li {
+      width: 100%; }
+      .home-update-container ul li.visible {
+        display: flex;
+        flex-direction: column; }
+      .home-update-container ul li.hidden {
+        display: none; }
+      .home-update-container ul li time {
+        font-size: 12px; }
+      .home-update-container ul li p {
+        padding-left: 10px; }
+  .home-update-container button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    outline: none;
+    padding: 0; }
+    .home-update-container button:hover {
+      cursor: pointer; }
+    .home-update-container button.reverse {
+      color: #ff392e; }
+      .home-update-container button.reverse i {
+        margin-right: 2px; }
+      .home-update-container button.reverse:hover {
+        color: #fff;
+        background-color: #ff392e; }
+    .home-update-container button.forward {
+      color: #3056ff;
+      margin-left: 10px; }
+      .home-update-container button.forward i {
+        margin-left: 2px; }
+      .home-update-container button.forward:hover {
+        color: #fff;
+        background-color: #3056ff; }
+    .home-update-container button.dark {
+      color: #d0d0d0; }
+      .home-update-container button.dark:hover {
+        cursor: default;
+        background-color: transparent;
+        color: #d0d0d0; }
 
 .home-upcoming-container {
   display: flex;
@@ -3154,983 +979,267 @@ span.skill-meteor {
         margin-left: 0;
         align-self: center; } }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.home-update-container {
-  width: 100%;
-  padding: 20px;
-  margin-top: 40px;
-  background-color: #f0f0f0; }
-  .home-update-container h2 {
-    font-weight: 700;
-    margin: 0 0 40px 0; }
-  .home-update-container ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 40px; }
-    .home-update-container ul li {
-      width: 100%; }
-      .home-update-container ul li.visible {
-        display: flex;
-        flex-direction: column; }
-      .home-update-container ul li.hidden {
-        display: none; }
-      .home-update-container ul li time {
-        font-size: 12px; }
-      .home-update-container ul li p {
-        padding-left: 10px; }
-  .home-update-container button {
-    display: inline-flex;
+.home-page {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .home-page .home-img-container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 300px;
+    width: 100%; }
+    .home-page .home-img-container img {
+      width: 250px;
+      height: 300px; }
+  .home-page .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    outline: none;
-    padding: 0; }
-    .home-update-container button:hover {
-      cursor: pointer; }
-    .home-update-container button.reverse {
-      color: #ff392e; }
-      .home-update-container button.reverse i {
-        margin-right: 2px; }
-      .home-update-container button.reverse:hover {
-        color: #fff;
-        background-color: #ff392e; }
-    .home-update-container button.forward {
-      color: #3056ff;
-      margin-left: 10px; }
-      .home-update-container button.forward i {
-        margin-left: 2px; }
-      .home-update-container button.forward:hover {
-        color: #fff;
-        background-color: #3056ff; }
-    .home-update-container button.dark {
-      color: #d0d0d0; }
-      .home-update-container button.dark:hover {
-        cursor: default;
-        background-color: transparent;
-        color: #d0d0d0; }
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px; }
+    @media (max-width: 420px) {
+      .home-page .intro {
+        color: #333;
+        background-color: #fff;
+        padding: 0; } }
+    .home-page .intro h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0; }
+    .home-page .intro h2 {
+      font-size: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .home-page .intro h2 i {
+        font-size: 9px;
+        margin: 0 10px; }
+  .home-page nav.home-nav {
+    margin-top: 20px; }
+    @media (max-width: 420px) {
+      .home-page nav.home-nav {
+        width: 100%; } }
+    .home-page nav.home-nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 400px;
+      height: 80px;
+      list-style-type: none;
+      padding: 0; }
+      .home-page nav.home-nav ul li {
+        width: 100px;
+        height: inherit; }
+        .home-page nav.home-nav ul li a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: inherit; }
+    @media (max-width: 400px) {
+      .home-page nav.home-nav {
+        width: 100%; }
+        .home-page nav.home-nav ul {
+          width: inherit; }
+          .home-page nav.home-nav ul li {
+            width: 60px; }
+            .home-page nav.home-nav ul li h1 {
+              font-size: 18px; }
+            .home-page nav.home-nav ul li a {
+              width: 60px;
+              font-size: 14px; } }
+    .home-page nav.home-nav ul {
+      margin: 0; }
+      .home-page nav.home-nav ul li a {
+        border-bottom: 4px solid transparent;
+        font-weight: 700; }
+      .home-page nav.home-nav ul li:first-child a {
+        color: #ff392e; }
+        .home-page nav.home-nav ul li:first-child a:hover {
+          color: #ff392e;
+          border-bottom: 4px solid #ff392e; }
+      .home-page nav.home-nav ul li:nth-child(2) a {
+        color: #8652dc; }
+        .home-page nav.home-nav ul li:nth-child(2) a:hover {
+          color: #8652dc;
+          border-bottom: 4px solid #8652dc; }
+      .home-page nav.home-nav ul li:nth-child(3) a {
+        color: #3056ff; }
+        .home-page nav.home-nav ul li:nth-child(3) a:hover {
+          color: #3056ff;
+          border-bottom: 4px solid #3056ff; }
+      .home-page nav.home-nav ul li:last-child a {
+        color: #00ff92; }
+        .home-page nav.home-nav ul li:last-child a:hover {
+          color: #00ff92;
+          border-bottom: 4px solid #00ff92; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
+.jr-recital-bass-event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
   width: 100%; }
+  .jr-recital-bass-event img {
+    width: 200px;
+    height: 280px;
+    border: none;
+    outline: none; }
+  @media (max-width: 420px) {
+    .jr-recital-bass-event {
+      width: 100%;
+      flex-wrap: wrap; }
+      .jr-recital-bass-event img {
+        margin-top: 40px; } }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
+.jr-recital-trackBox h2 {
+  align-self: flex-end; }
+  .jr-recital-trackBox h2:first-child {
+    align-self: flex-start; }
 
-a {
-  text-decoration: none;
+@media (max-width: 420px) {
+  .jr-recital-trackBox h2 {
+    align-self: flex-start;
+    margin-left: 5px; } }
+
+.jr-recital-trackBox ul:last-child {
+  align-self: flex-end; }
+
+[class*='event-textBox'] {
+  padding: 20px; }
+  [class*='event-textBox'] h2 {
+    margin-top: 0px;
+    font-weight: 700; }
+
+.event-textBox-dark {
+  background-color: #333;
+  color: #f0f0f0; }
+
+.event-textBox-light {
+  background-color: #f0f0f0;
   color: #333; }
 
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-/** PREFIXES **/
-@keyframes float {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: initial; }
-  100% {
-    opacity: 0; } }
-
-@-webkit-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-moz-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-ms-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-o-keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes expandOddBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-webkit-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-moz-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-ms-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@-o-keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes shrinkEvenBubbles {
-  0% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5); }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-
-.port-bubble-display {
+[class*='trackBox'] {
   display: flex;
-  flex-direction: column; }
-  .port-bubble-display .port-bubble-container {
-    display: inline-flex; }
-    .port-bubble-display .port-bubble-container .art-box {
-      width: 300px;
-      height: 300px;
-      position: relative;
-      overflow: hidden; }
-      .port-bubble-display .port-bubble-container .art-box .bubble {
-        position: absolute;
-        border: 1px solid transparent;
-        border-radius: 50%;
-        background-color: transparent; }
-        .port-bubble-display .port-bubble-container .art-box .bubble div {
-          border: 1px solid transparent;
-          border-radius: 50%; }
-        .port-bubble-display .port-bubble-container .art-box .bubble:nth-child(odd) div {
-          -webkit-animation: expandOddBubbles 8s infinite ease-in-out;
-          -moz-animation: expandOddBubbles 8s infinite ease-in-out;
-          -ms-animation: expandOddBubbles 8s infinite ease-in-out;
-          -o-animation: expandOddBubbles 8s infinite ease-in-out;
-          animation: expandOddBubbles 8s infinite ease-in-out; }
-        .port-bubble-display .port-bubble-container .art-box .bubble:nth-child(even) div {
-          -webkit-animation: shrinkEvenBubbles 8s infinite ease-in-out;
-          -moz-animation: shrinkEvenBubbles 8s infinite ease-in-out;
-          -ms-animation: shrinkEvenBubbles 8s infinite ease-in-out;
-          -o-animation: shrinkEvenBubbles 8s infinite ease-in-out;
-          animation: shrinkEvenBubbles 8s infinite ease-in-out; }
-  .port-bubble-display .port-bubble-container {
-    align-self: center;
-    margin-top: 40px;
-    box-shadow: 0 0 10px 0 #d0d0d0; }
-  .port-bubble-display .bubble-description {
-    width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  width: 100%;
+  padding: 20px; }
+  @media (max-width: 420px) {
+    [class*='trackBox'] {
+      align-items: center;
+      padding: 0px; } }
+  [class*='trackBox'] ul {
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
     background-color: #f0f0f0;
-    margin-top: 40px;
     padding: 20px; }
-    .port-bubble-display .bubble-description h2 {
+    @media (max-width: 420px) {
+      [class*='trackBox'] ul {
+        padding: 10px; } }
+    [class*='trackBox'] ul li p {
+      margin-bottom: 10px; }
+    [class*='trackBox'] ul li audio {
+      position: relative;
+      z-index: 1; }
+
+.bass-page {
+  width: 100%; }
+  .bass-page h1 {
+    margin-top: 0; }
+  .bass-page .bass-welcome {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0; }
+    .bass-page .bass-welcome p {
       margin-top: 0; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
+.skill-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .skill-box span {
+    display: inline-block;
+    margin: 5px 0 0 5px; }
 
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
+.vec-calcs-display {
+  display: flex;
+  flex-direction: column; }
+  .vec-calcs-display h2 {
+    padding-left: 20px; }
+    .vec-calcs-display h2 a:hover {
+      color: #ff5600; }
+    @media (max-width: 420px) {
+      .vec-calcs-display h2 {
+        text-decoration: underline; } }
+  .vec-calcs-display .vc-screenshot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; }
+    .vec-calcs-display .vc-screenshot-container .vc-img-wrapper {
+      line-height: 0;
+      position: relative;
+      box-shadow: 0 0 10px 0 #333; }
+      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
+        width: 400px;
+        height: 243px; }
+        @media (max-width: 420px) {
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
+            width: 300px;
+            height: 182px; } }
+      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
+        width: 400px;
+        height: 243px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8); }
+        @media (max-width: 420px) {
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
+            display: none; } }
+        .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: inherit;
+          height: inherit;
+          color: #fff;
+          font-weight: 700;
+          font-size: 30px; }
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 40px; }
+  .vec-calcs-display .vc-description {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0; }
+    .vec-calcs-display .vc-description p:first-child {
+      margin-top: 0; }
+      .vec-calcs-display .vc-description p:first-child a {
+        color: #ff5600;
+        text-decoration: underline;
+        margin-right: 2px; }
+        .vec-calcs-display .vc-description p:first-child a:hover {
+          color: #ff5600; }
 
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.port-hoops-display h2 a:hover {
-  color: #ff5600; }
-
-.port-hoops-display .hoops-description {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #333; }
-  .port-hoops-display .hoops-description p {
-    color: #fff; }
-    .port-hoops-display .hoops-description p a {
-      color: #ff5600;
-      text-decoration: underline;
-      font-weight: 700; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/** ANIMATION MIXINS **/
-/** PREFIXES **/
 .port-snowflake-display {
   display: flex;
   flex-direction: column; }
@@ -4531,138 +1640,62 @@ span.skill-meteor {
     .port-snowflake-display .snowflake-description p:first-child {
       margin-top: 0; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
+.port-bubble-display {
+  display: flex;
+  flex-direction: column; }
+  .port-bubble-display .port-bubble-container {
+    display: inline-flex; }
+    .port-bubble-display .port-bubble-container .art-box {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      overflow: hidden; }
+      .port-bubble-display .port-bubble-container .art-box .bubble {
+        position: absolute;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        background-color: transparent; }
+        .port-bubble-display .port-bubble-container .art-box .bubble div {
+          border: 1px solid transparent;
+          border-radius: 50%; }
+        .port-bubble-display .port-bubble-container .art-box .bubble:nth-child(odd) div {
+          -webkit-animation: expandOddBubbles 8s infinite ease-in-out;
+          -moz-animation: expandOddBubbles 8s infinite ease-in-out;
+          -ms-animation: expandOddBubbles 8s infinite ease-in-out;
+          -o-animation: expandOddBubbles 8s infinite ease-in-out;
+          animation: expandOddBubbles 8s infinite ease-in-out; }
+        .port-bubble-display .port-bubble-container .art-box .bubble:nth-child(even) div {
+          -webkit-animation: shrinkEvenBubbles 8s infinite ease-in-out;
+          -moz-animation: shrinkEvenBubbles 8s infinite ease-in-out;
+          -ms-animation: shrinkEvenBubbles 8s infinite ease-in-out;
+          -o-animation: shrinkEvenBubbles 8s infinite ease-in-out;
+          animation: shrinkEvenBubbles 8s infinite ease-in-out; }
+  .port-bubble-display .port-bubble-container {
+    align-self: center;
+    margin-top: 40px;
+    box-shadow: 0 0 10px 0 #d0d0d0; }
+  .port-bubble-display .bubble-description {
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 40px;
+    padding: 20px; }
+    .port-bubble-display .bubble-description h2 {
+      margin-top: 0; }
 
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
+.port-hoops-display h2 a:hover {
+  color: #ff5600; }
 
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
+.port-hoops-display .hoops-description {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333; }
+  .port-hoops-display .hoops-description p {
+    color: #fff; }
+    .port-hoops-display .hoops-description p a {
+      color: #ff5600;
+      text-decoration: underline;
+      font-weight: 700; }
 
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
 .portfolio-page {
   width: 100%; }
   .portfolio-page h1 {
@@ -4675,270 +1708,17 @@ span.skill-meteor {
     .portfolio-page section > h2 {
       padding-left: 20px; }
 
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
-
-/**********
-  Mixins
-**********/
-/********
-  Pages
-********/
-/*********
-  Nav
-*********/
-.skill-box {
-  margin-top: 10px;
+.coming-soon {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap; }
-  .skill-box span {
-    display: inline-block;
-    margin: 5px 0 0 5px; }
-
-/***********
-  Colors
-***********/
-/*********
-  Fonts
-*********/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-/*********
-  Flex
-*********/
-/*********
-  Base
-*********/
-* {
-  box-sizing: border-box; }
-
-body, html {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-body {
-  color: #333;
-  font-family: 'Quicksand', helvetica, sans-serif; }
-
-.app-container {
-  width: 100%; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-weight: 400; }
-
-a {
-  text-decoration: none;
-  color: #333; }
-
-p {
-  font-size: 16px; }
-
-/**********
-  Media
-**********/
-/*************
-  Skill Tags
-*************/
-span.skill-html {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e44d26; }
-
-span.skill-css {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #0c73b8; }
-
-span.skill-js {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e4a228; }
-
-span.skill-jq {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1fa2c9; }
-
-span.skill-jq-ui {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #fea620; }
-
-span.skill-react {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #00d8ff; }
-
-span.skill-sass {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #cd669a; }
-
-span.skill-mocha {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #9d7651; }
-
-span.skill-gulp {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #e84a4a; }
-
-span.skill-less {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #1c355c; }
-
-span.skill-meteor {
-  padding: 4px;
-  border-radius: 3px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #de4a4a; }
+  align-items: center;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #f0f0f0; }
+  .coming-soon h2 {
+    color: #ff392e;
+    margin: 0; }
 
 /**********
   Mixins
@@ -4949,66 +1729,3 @@ span.skill-meteor {
 /*********
   Nav
 *********/
-.vec-calcs-display {
-  display: flex;
-  flex-direction: column; }
-  .vec-calcs-display h2 {
-    padding-left: 20px; }
-    .vec-calcs-display h2 a:hover {
-      color: #ff5600; }
-    @media (max-width: 420px) {
-      .vec-calcs-display h2 {
-        text-decoration: underline; } }
-  .vec-calcs-display .vc-screenshot-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px; }
-    .vec-calcs-display .vc-screenshot-container .vc-img-wrapper {
-      line-height: 0;
-      position: relative;
-      box-shadow: 0 0 10px 0 #333; }
-      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
-        width: 400px;
-        height: 243px; }
-        @media (max-width: 420px) {
-          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
-            width: 300px;
-            height: 182px; } }
-      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
-        width: 400px;
-        height: 243px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.8); }
-        @media (max-width: 420px) {
-          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
-            display: none; } }
-        .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: inherit;
-          height: inherit;
-          color: #fff;
-          font-weight: 700;
-          font-size: 30px; }
-          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a span {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 40px; }
-  .vec-calcs-display .vc-description {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f0f0f0; }
-    .vec-calcs-display .vc-description p:first-child {
-      margin-top: 0; }
-      .vec-calcs-display .vc-description p:first-child a {
-        color: #ff5600;
-        text-decoration: underline;
-        margin-right: 2px; }
-        .vec-calcs-display .vc-description p:first-child a:hover {
-          color: #ff5600; }
