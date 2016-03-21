@@ -2695,9 +2695,11 @@ span.skill-sass {
       overflow: hidden; }
       .home-upcoming-container .bubble-maker-container .art-box .bubble {
         position: absolute;
+        border: 1px solid transparent;
         border-radius: 50%;
         background-color: transparent; }
         .home-upcoming-container .bubble-maker-container .art-box .bubble div {
+          border: 1px solid transparent;
           border-radius: 50%; }
         .home-upcoming-container .bubble-maker-container .art-box .bubble:nth-child(odd) div {
           -webkit-animation: expandOddBubbles 8s infinite ease-in-out;
@@ -3219,9 +3221,11 @@ span.skill-sass {
       overflow: hidden; }
       .port-bubble-display .port-bubble-container .art-box .bubble {
         position: absolute;
+        border: 1px solid transparent;
         border-radius: 50%;
         background-color: transparent; }
         .port-bubble-display .port-bubble-container .art-box .bubble div {
+          border: 1px solid transparent;
           border-radius: 50%; }
         .port-bubble-display .port-bubble-container .art-box .bubble:nth-child(odd) div {
           -webkit-animation: expandOddBubbles 8s infinite ease-in-out;
