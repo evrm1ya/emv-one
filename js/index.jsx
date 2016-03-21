@@ -18,7 +18,7 @@ class MainLayout extends React.Component {
       <div className='content'>
         {this.props.children}
         <footer>
-          Copyright &copy; {this._getCurrentYear()} Evan Vermilyea
+          {'Copyright ' + String.fromCharCode(169) + ' ' + this._getCurrentYear() + ' Evan Vermilyea'}
         </footer>
       </div>
     </div>
