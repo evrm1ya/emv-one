@@ -28,10 +28,10 @@ class PortfolioSnowflakeDisplay extends React.Component {
         <div className='skill-box'>
           <SkillTag skillClass='skill-html' skillText='HTML' />
           <SkillTag skillClass='skill-css' skillText='CSS3' />
-          <SkillTag skillClass='skill-css' skillText='Responsive' />
           <SkillTag skillClass='skill-sass' skillText='SASS' />
           <SkillTag skillClass='skill-js' skillText='JS' />
           <SkillTag skillClass='skill-react' skillText='React' />
+          <SkillTag skillClass='skill-gulp' skillText='Gulp' />
         </div>
       </div>
     </section>

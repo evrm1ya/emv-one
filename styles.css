@@ -93,6 +93,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /***********
   Colors
 ***********/
@@ -187,6 +215,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -292,6 +348,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -624,6 +708,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
 
@@ -722,6 +834,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -785,7 +925,8 @@ nav.app-navbar {
       align-items: center; }
       nav.app-navbar ul li:first-child h1 {
         background-color: #f0f0f0;
-        padding: 10px; }
+        padding: 10px;
+        margin: 0; }
     nav.app-navbar ul li:nth-child(2) a {
       color: #ff392e; }
       nav.app-navbar ul li:nth-child(2) a:hover {
@@ -940,6 +1081,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -1054,6 +1223,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -1178,6 +1375,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -1294,6 +1519,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -1412,6 +1665,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -1544,6 +1825,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -1659,6 +1968,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -1868,6 +2205,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -1970,6 +2335,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
@@ -2455,6 +2848,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -2828,6 +3249,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -2990,6 +3439,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -3243,6 +3720,159 @@ span.skill-sass {
     align-self: center;
     margin-top: 40px;
     box-shadow: 0 0 10px 0 #d0d0d0; }
+  .port-bubble-display .bubble-description {
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 40px;
+    padding: 20px; }
+    .port-bubble-display .bubble-description h2 {
+      margin-top: 0; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
+.port-hoops-display h2 a:hover {
+  color: #ff5600; }
+
+.port-hoops-display .hoops-description {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333; }
+  .port-hoops-display .hoops-description p {
+    color: #fff; }
+    .port-hoops-display .hoops-description p a {
+      color: #ff5600;
+      text-decoration: underline;
+      font-weight: 700; }
 
 /***********
   Colors
@@ -3339,6 +3969,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /**********
   Mixins
@@ -3442,6 +4100,34 @@ span.skill-sass {
   color: #fff;
   font-weight: 700;
   background-color: #cd669a; }
+
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
 
 /** ANIMATION MIXINS **/
 /** PREFIXES **/
@@ -3940,6 +4626,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -4056,6 +4770,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -4170,6 +4912,34 @@ span.skill-sass {
   font-weight: 700;
   background-color: #cd669a; }
 
+span.skill-mocha {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #9d7651; }
+
+span.skill-gulp {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e84a4a; }
+
+span.skill-less {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1c355c; }
+
+span.skill-meteor {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #de4a4a; }
+
 /**********
   Mixins
 **********/
@@ -4231,12 +5001,13 @@ span.skill-sass {
             align-items: center;
             height: 40px; }
   .vec-calcs-display .vc-description {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
     background-color: #f0f0f0; }
     .vec-calcs-display .vc-description p:first-child {
       margin-top: 0; }
       .vec-calcs-display .vc-description p:first-child a {
+        color: #ff5600;
         text-decoration: underline;
         margin-right: 2px; }
         .vec-calcs-display .vc-description p:first-child a:hover {

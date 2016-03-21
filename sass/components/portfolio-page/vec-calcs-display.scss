@@ -55,12 +55,13 @@
     }
   }
   .vc-description {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
     background-color: $grayBackground;
     p:first-child {
       margin-top: 0;
       a {
+        color: #ff5600;
         text-decoration: underline;
         margin-right: 2px;
         &:hover {

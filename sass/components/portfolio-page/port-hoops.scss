@@ -1,0 +1,25 @@
+
+@import '../../components.scss';
+
+.port-hoops-display {
+  h2 {
+    a {
+      &:hover {
+        color: #ff5600;
+      }
+    }
+  }
+  .hoops-description {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: $grayFont;
+    p {
+      color: $white;
+      a {
+        color: #ff5600;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+    }
+  }
+}

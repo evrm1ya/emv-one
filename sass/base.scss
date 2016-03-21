@@ -29,6 +29,10 @@ $jQueryBlueLight: rgb(31, 162, 201);
 $jQueryUIYellow: rgb(254, 166, 32);
 $reactBlue: rgb(0, 216, 255);
 $sassPink: rgb(205, 102, 154);
+$mochaBrown: rgb(157, 118, 81);
+$gulpRed: rgb(232, 74, 74);
+$lessBlue: rgb(28, 53, 92);
+$meteorRed: rgb(222, 74, 74);
 
 /*********
   Fonts
@@ -137,4 +141,20 @@ span.skill-react {
 
 span.skill-sass {
   @include skillTag($sassPink);
+}
+
+span.skill-mocha {
+  @include skillTag($mochaBrown);
+}
+
+span.skill-gulp {
+  @include skillTag($gulpRed);
+}
+
+span.skill-less {
+  @include skillTag($lessBlue);
+}
+
+span.skill-meteor {
+  @include skillTag($meteorRed);
 }

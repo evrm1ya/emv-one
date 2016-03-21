@@ -15,4 +15,13 @@
     margin-top: 40px;
     box-shadow: 0 0 10px 0 $grayStroke;
   }
+  .bubble-description {
+    width: 100%;
+    background-color: $grayBackground;
+    margin-top: 40px;
+    padding: 20px;
+    h2 {
+      margin-top: 0;
+    }
+  }
 }

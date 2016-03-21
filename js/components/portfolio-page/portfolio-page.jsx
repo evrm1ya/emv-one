@@ -5,6 +5,7 @@ import {linkProps} from '../../stores/nav/link-store';
 import {VectorCalcsDisplay} from './work-display/vectorcalcs/vc-display';
 import {PortfolioSnowflakeDisplay} from './work-display/port-snowflake/snowflake-display';
 import {PortfolioBubbleDisplay} from './work-display/port-bubble/port-bubble';
+import {PortfolioHoopsDisplay} from './work-display/hoops-display/hoops-display';
 
 class PortfolioPage extends React.Component {
   constructor() {
@@ -20,6 +21,7 @@ class PortfolioPage extends React.Component {
       <VectorCalcsDisplay />
       <PortfolioSnowflakeDisplay />
       <PortfolioBubbleDisplay />
+      <PortfolioHoopsDisplay />
     </div>
   }
 }
