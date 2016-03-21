@@ -15,7 +15,9 @@ class BlogPage extends React.Component {
   render() {
     return <div>
       <NavBar pageTitle='Blog' linkProps={this._generateBlogPageLinks()} />
-      Blog Page
+      <section className='coming-soon'>
+        <h2>Content Coming Soon</h2>
+      </section>
     </div>
   }
 }

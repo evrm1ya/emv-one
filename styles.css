@@ -1553,6 +1553,122 @@ span.skill-sass {
 /*********
   Nav
 *********/
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #f0f0f0; }
+  .coming-soon h2 {
+    color: #ff392e;
+    margin: 0; }
+
+/***********
+  Colors
+***********/
+/*********
+  Fonts
+*********/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+/*********
+  Flex
+*********/
+/*********
+  Base
+*********/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quicksand', helvetica, sans-serif; }
+
+.app-container {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+p {
+  font-size: 16px; }
+
+/**********
+  Media
+**********/
+/*************
+  Skill Tags
+*************/
+span.skill-html {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e44d26; }
+
+span.skill-css {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0c73b8; }
+
+span.skill-js {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #e4a228; }
+
+span.skill-jq {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #1fa2c9; }
+
+span.skill-jq-ui {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #fea620; }
+
+span.skill-react {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #00d8ff; }
+
+span.skill-sass {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #cd669a; }
+
+/**********
+  Mixins
+**********/
+/********
+  Pages
+********/
+/*********
+  Nav
+*********/
 .home-page {
   padding-top: 100px;
   display: flex;
@@ -3718,22 +3834,58 @@ span.skill-sass {
     padding-left: 20px; }
     .vec-calcs-display h2 a:hover {
       color: #ff5600; }
+    @media (max-width: 420px) {
+      .vec-calcs-display h2 {
+        text-decoration: underline; } }
   .vec-calcs-display .vc-screenshot-container {
     display: flex;
     justify-content: center;
     margin-top: 40px; }
-    .vec-calcs-display .vc-screenshot-container > div {
+    .vec-calcs-display .vc-screenshot-container .vc-img-wrapper {
+      line-height: 0;
+      position: relative;
       box-shadow: 0 0 10px 0 #333; }
-      .vec-calcs-display .vc-screenshot-container > div img {
+      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
         width: 400px;
         height: 243px; }
         @media (max-width: 420px) {
-          .vec-calcs-display .vc-screenshot-container > div img {
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
             width: 300px;
             height: 182px; } }
+      .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
+        width: 400px;
+        height: 243px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8); }
+        @media (max-width: 420px) {
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
+            display: none; } }
+        .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: inherit;
+          height: inherit;
+          color: #fff;
+          font-weight: 700;
+          font-size: 30px; }
+          .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 40px; }
   .vec-calcs-display .vc-description {
     margin-top: 20px;
     padding: 20px;
     background-color: #f0f0f0; }
     .vec-calcs-display .vc-description p:first-child {
       margin-top: 0; }
+      .vec-calcs-display .vc-description p:first-child a {
+        text-decoration: underline;
+        margin-right: 2px; }
+        .vec-calcs-display .vc-description p:first-child a:hover {
+          color: #ff5600; }

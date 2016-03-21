@@ -9,12 +9,17 @@
     a:hover {
       color: #ff5600;
     }
+    @media #{$mobile} {
+      text-decoration: underline;
+    }
   }
   .vc-screenshot-container {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    & > div {
+    .vc-img-wrapper {
+      line-height: 0;
+      position: relative;
       box-shadow: 0 0 10px 0 $grayFont;
       img {
         width: 400px;
@@ -22,6 +27,29 @@
         @media #{$mobile} {
           width: 300px;
           height: 182px;
+        }
+      }
+      .vc-screenie-hover {
+        width: 400px;
+        height: 243px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        @media #{$mobile} {
+          display: none;
+        }
+        a {
+          @include vertFlexPerfectCenter;
+          width: inherit;
+          height: inherit;
+          color: $white;
+          font-weight: 700;
+          font-size: 30px;
+          span {
+            @include vertFlexPerfectCenter;  
+            height: 40px;
+          }
         }
       }
     }
@@ -32,6 +60,13 @@
     background-color: $grayBackground;
     p:first-child {
       margin-top: 0;
+      a {
+        text-decoration: underline;
+        margin-right: 2px;
+        &:hover {
+          color: #ff5600;
+        }
+      }
     }
   }
 }

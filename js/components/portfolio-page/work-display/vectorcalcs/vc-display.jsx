@@ -13,10 +13,17 @@ class VectorCalcsDisplay extends React.Component {
         containerClass='vc-screenshot-container'
         imgSrc='./public/images/vc-ss-test.png'
         altText='A screenshot of the vectorcalcs.com homepage'
+        imgWrapperClass='vc-img-wrapper'
+        hoverClassName='vc-screenie-hover'
+        hoverSrc='http://www.vectorcalcs.com'
+        outboundTitle='vectorcalcs.com'
       />
       <div className='vc-description'>
         <p>
-          <em>vectorcalcs.com</em> is a web application containing a variety
+          <a href='http://www.vectorcalcs.com'> 
+            vectorcalcs.com
+          </a>  
+          is a web application containing a variety
           of different vector operation calculators. It was designed to assist
           calculus and pre-calculus students in their study of vectors. This 
           application was the first I designed, developed, and launched. It was
