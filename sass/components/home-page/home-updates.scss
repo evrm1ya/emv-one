@@ -55,7 +55,7 @@
         background-color: $emvBlue;
         @media #{$mobile} {
           color: $emvBlue;
-          background-color: $white;
+          background-color: $grayBackground;
         }
       }
     }
@@ -69,7 +69,7 @@
         background-color: $emvRed;
         @media #{$mobile} {
           color: $emvRed;
-          background-color: $white;
+          background-color: $grayBackground;
         }
       }
     }

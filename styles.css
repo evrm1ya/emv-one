@@ -908,7 +908,7 @@ nav.app-navbar {
         @media (max-width: 440px) {
           .home-update-container button.reverse:hover {
             color: #3056ff;
-            background-color: #fff; } }
+            background-color: #f0f0f0; } }
     .home-update-container button.forward {
       color: #ff392e; }
       .home-update-container button.forward i {
@@ -919,7 +919,7 @@ nav.app-navbar {
         @media (max-width: 440px) {
           .home-update-container button.forward:hover {
             color: #ff392e;
-            background-color: #fff; } }
+            background-color: #f0f0f0; } }
     .home-update-container button.dark {
       color: #d0d0d0; }
       .home-update-container button.dark:hover {
