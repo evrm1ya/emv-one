@@ -132,7 +132,7 @@ span.skill-meteor {
     align-items: center;
     width: 680px;
     background-color: #fff; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .main-layout .content {
         width: 100%; } }
     .main-layout .content footer {
@@ -367,7 +367,7 @@ nav.app-navbar {
   margin-top: 10px;
   box-shadow: 0 0 5px 0 #d0d0d0;
   z-index: 999; }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     nav.app-navbar {
       width: 100%; } }
   nav.app-navbar ul {
@@ -434,13 +434,13 @@ nav.app-navbar {
       nav.app-navbar ul li:last-child a:hover {
         color: #00ff92;
         border-bottom: 4px solid #00ff92; }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     nav.app-navbar {
       top: 0; } }
-  @media (max-width: 420px) and (max-width: 420px) {
+  @media (max-width: 440px) and (max-width: 440px) {
     nav.app-navbar {
       width: 100%; } }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
       nav.app-navbar ul {
         display: flex;
         flex-direction: row;
@@ -460,7 +460,7 @@ nav.app-navbar {
             align-items: center;
             width: 60px;
             height: inherit; } }
-  @media (max-width: 420px) and (max-width: 400px) {
+  @media (max-width: 440px) and (max-width: 400px) {
     nav.app-navbar {
       width: 100%; }
       nav.app-navbar ul {
@@ -928,7 +928,7 @@ nav.app-navbar {
   width: 100%;
   margin-top: 40px;
   padding: 20px; }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     .home-upcoming-container {
       padding: 0;
       justify-content: center; } }
@@ -973,7 +973,7 @@ nav.app-navbar {
     .home-upcoming-container .home-event-box time {
       display: inline-block;
       margin-top: 10px; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .home-upcoming-container .home-event-box {
         margin-top: 40px;
         margin-left: 0;
@@ -1003,7 +1003,7 @@ nav.app-navbar {
     color: #fff;
     padding: 20px;
     margin-top: 20px; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .home-page .intro {
         color: #333;
         background-color: #fff;
@@ -1022,7 +1022,7 @@ nav.app-navbar {
         margin: 0 10px; }
   .home-page nav.home-nav {
     margin-top: 20px; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .home-page nav.home-nav {
         width: 100%; } }
     .home-page nav.home-nav ul {
@@ -1094,7 +1094,7 @@ nav.app-navbar {
     height: 280px;
     border: none;
     outline: none; }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     .jr-recital-bass-event {
       width: 100%;
       flex-wrap: wrap; }
@@ -1106,13 +1106,16 @@ nav.app-navbar {
   .jr-recital-trackBox h2:first-child {
     align-self: flex-start; }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   .jr-recital-trackBox h2 {
     align-self: flex-start;
     margin-left: 5px; } }
 
 .jr-recital-trackBox ul:last-child {
   align-self: flex-end; }
+  @media (max-width: 440px) {
+    .jr-recital-trackBox ul:last-child {
+      align-self: center; } }
 
 [class*='event-textBox'] {
   padding: 20px; }
@@ -1135,7 +1138,7 @@ nav.app-navbar {
   margin-top: 40px;
   width: 100%;
   padding: 20px; }
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     [class*='trackBox'] {
       align-items: center;
       padding: 0px; } }
@@ -1146,7 +1149,7 @@ nav.app-navbar {
     margin-top: 20px;
     background-color: #f0f0f0;
     padding: 20px; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       [class*='trackBox'] ul {
         padding: 10px; } }
     [class*='trackBox'] ul li p {
@@ -1183,7 +1186,7 @@ nav.app-navbar {
     padding-left: 20px; }
     .vec-calcs-display h2 a:hover {
       color: #ff5600; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .vec-calcs-display h2 {
         text-decoration: underline; } }
   .vec-calcs-display .vc-screenshot-container {
@@ -1197,7 +1200,7 @@ nav.app-navbar {
       .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
         width: 400px;
         height: 243px; }
-        @media (max-width: 420px) {
+        @media (max-width: 440px) {
           .vec-calcs-display .vc-screenshot-container .vc-img-wrapper img {
             width: 300px;
             height: 182px; } }
@@ -1208,7 +1211,7 @@ nav.app-navbar {
         top: 0;
         left: 0;
         background-color: rgba(0, 0, 0, 0.8); }
-        @media (max-width: 420px) {
+        @media (max-width: 440px) {
           .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover {
             display: none; } }
         .vec-calcs-display .vc-screenshot-container .vc-img-wrapper .vc-screenie-hover a {
@@ -1700,25 +1703,42 @@ nav.app-navbar {
   width: 100%; }
   .portfolio-page h1 {
     margin-top: 0; }
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       .portfolio-page h1 {
-        font-size: 18px; } }
+        padding: 5px 0px !important;
+        font-size: 16px !important; } }
   .portfolio-page section {
     margin-top: 40px; }
     .portfolio-page section > h2 {
       padding-left: 20px; }
 
-.temporary-contact {
+@media (max-width: 440px) {
+  .contact-page {
+    width: 100%; } }
+
+@media (max-width: 440px) {
+  .contact-page h1 {
+    padding: 5px 2px !important;
+    font-size: 16px !important; } }
+
+.contact-page .temporary-contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 40px 0;
   padding: 40px;
   background-color: #f0f0f0; }
-  .temporary-contact h2 {
+  .contact-page .temporary-contact h2 {
     color: #ff392e;
-    margin: 0; }
+    margin: 0;
+    align-self: flex-start; }
+  .contact-page .temporary-contact p:first-child {
+    align-self: flex-start; }
+  @media (max-width: 440px) {
+    .contact-page .temporary-contact {
+      width: 100%;
+      padding: 20px; }
+      .contact-page .temporary-contact h2 {
+        font-size: 18px; } }
 
 .coming-soon {
   display: flex;

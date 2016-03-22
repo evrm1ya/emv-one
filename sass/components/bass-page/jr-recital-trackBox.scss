@@ -14,5 +14,8 @@
   }
   ul:last-child {
     align-self: flex-end;
+    @media #{$mobile} {
+      align-self: center;
+    }
   }
 }

@@ -16,7 +16,7 @@ class ContactPage extends React.Component {
     window.scrollTo(0,0);
   }
   render() {
-    return <div>
+    return <div className='contact-page'>
       <NavBar pageTitle='Contact' linkProps={this._generateContactNavLinks()} />
       <div className='temporary-contact'>
         <h2>Temporary Contact Info</h2>  
