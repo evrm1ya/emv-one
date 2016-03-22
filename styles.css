@@ -905,6 +905,10 @@ nav.app-navbar {
       .home-update-container button.reverse:hover {
         color: #fff;
         background-color: #3056ff; }
+        @media (max-width: 440px) {
+          .home-update-container button.reverse:hover {
+            color: #3056ff;
+            background-color: #fff; } }
     .home-update-container button.forward {
       color: #ff392e; }
       .home-update-container button.forward i {
@@ -912,6 +916,10 @@ nav.app-navbar {
       .home-update-container button.forward:hover {
         color: #fff;
         background-color: #ff392e; }
+        @media (max-width: 440px) {
+          .home-update-container button.forward:hover {
+            color: #ff392e;
+            background-color: #fff; } }
     .home-update-container button.dark {
       color: #d0d0d0; }
       .home-update-container button.dark:hover {
