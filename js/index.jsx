@@ -11,19 +11,19 @@ import {BlogPage} from './components/blog-page/blog-page';
 class MainLayout extends React.Component {
   constructor() {
     super();
-    this._getCurrentYear = this._getCurrentYear.bind(this);
+    this.getCurrentYear = this.getCurrentYear.bind(this);
   }
   render() {
     return <div className='main-layout'>
       <div className='content'>
         {this.props.children}
         <footer>
-          {'Copyright ' + String.fromCharCode(169) + ' ' + this._getCurrentYear() + ' Evan Vermilyea'}
+          {'Copyright ' + String.fromCharCode(169) + ' ' + this.getCurrentYear() + ' Evan Vermilyea'}
         </footer>
       </div>
     </div>
   }
-  _getCurrentYear() {
+  getCurrentYear() {
     let date = new Date();
     let currentYear = date.getFullYear();
     return currentYear;
